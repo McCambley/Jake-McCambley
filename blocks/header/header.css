@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px 0;
+  position: sticky;
+  top: 0;
+}
+
+.header__nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-link {
+  margin: 0;
+  margin-right: 18px;
+  opacity: 1;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity .2s ease-in-out;
+}
+
+.header__nav-link:hover {
+  opacity: .3;
+}
