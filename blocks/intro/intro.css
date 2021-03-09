@@ -1,5 +1,7 @@
 .intro {
-  height: calc(100vh - 96px);
+  /* height: calc(100vh - 96px); */
+  height: 100vh;
+  min-height: 280px;
   width: 100%;
   /* position: relative; */
   display: flex;
@@ -18,7 +20,7 @@
   /* position: absolute;
   top: 15%;
   left: 15%; */
-  filter: drop-shadow(0 0 0.75rem #3F3D4B);
+  filter: drop-shadow(0 0 3px #3F3D4B);
   transition: opacity .5s ease-in-out;
   margin-right: 32px;
 }

@@ -1,0 +1,48 @@
+.about {
+  height: 100vh;
+  background-color: #F2E2CF;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 48px;
+  padding: 0 48px 0;
+  box-sizing: border-box;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.about__title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: .5em;
+}
+
+.about__paragraph {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.about__headshot {
+  border-radius: 50%;
+  width: 100%;
+  background-size: cover;
+  align-self: center;
+  /* position: absolute;
+  top: 15%;
+  left: 15%; */
+  /* filter: drop-shadow(0 0 0.75rem #3F3D4B); */
+  opacity: .9;
+  filter: drop-shadow(0 0 3px #3F3D4B);
+}
