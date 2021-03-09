@@ -10,7 +10,9 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/main/main.css);
-@import url(../blocks/about/about.css)
+@import url(../blocks/about/about.css);
+@import url(../blocks/footer/footer.css);
+
 
 /* Costa Del Sol
 #646033
@@ -23,6 +25,13 @@ Polo Blue
 
 Olive Green
 #B1B463
+
+Coffee light to dark:
+E9CEB0
+FFEFDD
+E9CEB0
+C6A27B
+A57D4F
 
 https://coolors.co/495619-a73c36-3f3d4b-f1d9cc-bfd8ed
 */

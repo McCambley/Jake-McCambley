@@ -1,0 +1,48 @@
+.footer {
+  height: 108px;
+  width: 100%;
+  background-color: #C6A27B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 48px 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px #3F3D4B;
+}
+
+.footer__author {
+  margin: 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  line-height: 18px;
+}
+
+.footer__heart {
+  height: 1em;
+  margin: 0 .2em 0;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+}
+
+.footer__social-link {
+  height: 48px;
+}
+
+.footer__social-icon {
+  width: 36px;
+  height: 36px;
+  fill: #3F3D4B;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+}
