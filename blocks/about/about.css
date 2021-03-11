@@ -1,11 +1,11 @@
 .about {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #FFEFDD;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 48px;
-  padding: 0 48px 0;
+  padding: 48px 48px 0;
   box-sizing: border-box;
 }
 
