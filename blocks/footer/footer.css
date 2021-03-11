@@ -19,26 +19,27 @@
   line-height: 18px;
 }
 
-.footer__heart {
-  height: 1em;
-  margin: 0 .2em 0;
-}
-
 .footer__socials {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 400px;
+  max-width: 536px;
 }
 
 .footer__social-link {
-  height: 48px;
+  height: 38px;
 }
 
 .footer__social-icon {
-  width: 36px;
-  height: 36px;
+  width: 28px;
+  height: 28px;
   fill: #3F3D4B;
+
+}
+
+.footer__social-icon_outline_onyx {
+  border: 1px solid #3F3D4B;
+  border-radius: 50%;
 }
 
 .footer__copyright {
