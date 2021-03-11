@@ -1,0 +1,16 @@
+.intro__headshot {
+  border-radius: 50%;
+  width: 30%;
+  opacity: .8;
+  min-width: 280px;
+  /* position: absolute;
+  top: 15%;
+  left: 15%; */
+  filter: drop-shadow(0 0 3px #3F3D4B);
+  transition: opacity .5s ease-in-out;
+  margin-right: 32px;
+}
+
+.intro__headshot:hover {
+  opacity: 1;
+}

@@ -1,3 +1,12 @@
+@keyframes refresh {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -12,6 +21,8 @@
   box-shadow: 0 0 8px #3F3D4B;
   background-color: rgba(233, 206, 176, 0.9);
   z-index: 2;
+  animation: refresh 1s ease-in 3s 1 forwards;
+  opacity: 0;
 }
 
 .header__nav-links {

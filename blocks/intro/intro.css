@@ -1,3 +1,8 @@
+@import url("./__headshot/intro__headshot.css");
+@import url("./__text/intro__text.css");
+@import url("./__subtitle/intro__subtitle.css");
+
+
 .intro {
   /* height: calc(100vh - 96px); */
   height: 100vh;
@@ -12,43 +17,12 @@
   box-sizing: border-box;
 }
 
-.intro__headshot {
-  border-radius: 50%;
-  width: 30%;
-  opacity: .8;
-  min-width: 280px;
-  /* position: absolute;
-  top: 15%;
-  left: 15%; */
-  filter: drop-shadow(0 0 3px #3F3D4B);
-  transition: opacity .5s ease-in-out;
-  margin-right: 32px;
-}
-
-.intro__headshot:hover {
-  opacity: 1;
-}
-
-.intro__text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
 .intro__title {
   margin: 0;
   font-size: 72px;
   line-height: 1;
   font-weight: 900;
   margin-bottom: 10px;
-}
-
-.intro__subtitle {
-  margin: 0;
-  font-size: 32px;
-  line-height: 1;
-  text-align: center;
-  font-weight: 400;
 }
 
 /* * {
