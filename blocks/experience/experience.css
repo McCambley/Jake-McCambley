@@ -1,0 +1,83 @@
+.experience {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+  box-sizing: border-box;
+}
+
+.experience__title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 900;
+  margin: 0 auto;
+  margin-bottom: .5em;
+  max-width: 50%;
+  min-width: 300px;
+  text-align: center;
+}
+
+.experience__positions {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  grid-template-columns: 1fr;
+  gap: 36px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.experience__role {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience__role-title {
+  font-weight: 900;
+  font-size: 28px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 0 4px;
+  line-height: 1.2;
+}
+
+.experience__role-place {
+  font-weight: 700;
+  font-size: 18px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 0 4px;
+  line-height: 1.2;
+}
+
+.experience__role-time {
+  margin: 0 0 12px;
+  line-height: 1;
+  font-size: 12px;
+  text-align: center;
+}
+
+.experience__role-description {
+  max-width: 95%;
+  margin: 0 0 14px;
+  line-height: 1.2;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.experience__skills {
+ width: 100%;
+ max-width: 500px;
+ margin: 0 auto;
+ font-size: 12px;
+ font-weight: 700;
+ letter-spacing: 1px;
+ line-height: 1.8;
+ text-transform: uppercase;
+ text-align: center;
+ padding-top: 24px;
+
+}
