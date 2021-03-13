@@ -1,0 +1,46 @@
+/* vendor stylesheets */
+@import url(../vendor/normalize.css);
+
+/* font stylesheets */
+@import url(../fonts/fonts.css);
+
+/* block stylesheets */
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/transparency/transparency.css);
+@import url(../blocks/grow/grow.css);
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/experience/experience.css);
+
+
+
+
+
+
+/* Costa Del Sol
+#646033
+
+Akaroa
+#D4BAA4
+
+Polo Blue
+#829CC6
+
+Olive Green
+#B1B463
+
+Coffee light to dark:
+E9CEB0
+FFEFDD
+E9CEB0
+C6A27B
+A57D4F
+
+https://coolors.co/495619-a73c36-3f3d4b-f1d9cc-bfd8ed
+*/

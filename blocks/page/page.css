@@ -26,7 +26,7 @@
 }
 
 .page__loading {
-  position: absolute;
+  position: sti;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,8 @@
   width: 100%;
   background-color: #C6A27B;
   z-index: 1;
-  animation: overlay 1s ease-in 2s 1 forwards;
+  /* animation: overlay 1s ease-in 2s 1 forwards; */
+  animation: overlay 0s ease-in 0s 1 forwards;
 }
 
 .page__loading-logo {

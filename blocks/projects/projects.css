@@ -1,11 +1,10 @@
 .projects {
   min-height: 100vh;
-  background-color: #FFEFDD;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 48px;
+  padding: 96px 48px 48px;
   box-sizing: border-box;
 }
 
