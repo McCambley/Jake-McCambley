@@ -1,5 +1,5 @@
 .contact {
-  height: 50vh;
+  min-height: 50vh;
   background-color: #C6A27B;
   display: flex;
   flex-direction: column;

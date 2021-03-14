@@ -5,6 +5,8 @@
   align-items: center;
   padding: 96px 48px 48px;
   box-sizing: border-box;
+  background-color: #FFEFDD;
+  position: relative;
 }
 
 .experience__title {
@@ -16,6 +18,36 @@
   max-width: 50%;
   min-width: 300px;
   text-align: center;
+}
+
+.experience__download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 24px;
+  border-radius: 50px;
+  border: 3px solid #3F3D4B;
+  transition: background-color .2s ease-in-out;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  background-color: #E9CEB0;
+  padding: 5px;
+  position: sticky;
+  align-self: flex-end;
+  bottom: 48px;
+  right: 48px;
+}
+
+.experience__download-icon {
+  width: 25px;
+}
+
+.experience__download:hover {
+  cursor: pointer;
+  background-color: rgb(165,125,79, .5);
+  color: black;
 }
 
 .experience__positions {
@@ -71,7 +103,7 @@
 .experience__skills {
  width: 100%;
  max-width: 500px;
- margin: 0 auto;
+ margin: 0 auto 28px;
  font-size: 12px;
  font-weight: 700;
  letter-spacing: 1px;
@@ -79,5 +111,4 @@
  text-transform: uppercase;
  text-align: center;
  padding-top: 24px;
-
 }

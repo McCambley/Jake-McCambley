@@ -43,7 +43,8 @@
   height: 32px;
   border-radius: 50px;
   border: 2px solid #3F3D4B;
-  transition: background-color .2s ease-in-out;
+  transform: scale(1);
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
   text-decoration: none;
   color: inherit;
 }
@@ -51,6 +52,10 @@
 .intro__link:hover {
   background-color: rgb(165,125,79, .5);
   color: black;
+}
+
+.intro__link:active {
+  transform: scale(.95);
 }
 
 /* * {
