@@ -38,3 +38,12 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media (max-width: 675px) {
+  .header__nav-links {
+    display: none;
+  }
+  .header {
+    justify-content: center;
+  }
+}

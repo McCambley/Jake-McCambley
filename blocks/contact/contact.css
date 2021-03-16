@@ -1,5 +1,5 @@
 .contact {
-  min-height: 50vh;
+  padding: 48px 0;
   background-color: #C6A27B;
   display: flex;
   justify-content: center;
@@ -12,6 +12,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
 .contact__title {
@@ -20,6 +22,7 @@
   font-weight: 900;
   margin: 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .contact__subtitle {
@@ -47,4 +50,29 @@
 .contact__button:hover {
   cursor: pointer;
   background-color: rgb(165,125,79, .5);
+}
+
+@media (max-width: 1279px) {
+
+}
+
+
+
+@media (max-width: 1023px) {
+  .contact__title {
+    font-size: 48px;
+  }
+  .contact__subtitle {
+    font-size: 16px;
+  }
+  .contact__button {
+    width: 160px;
+    height: 40px;
+  }
+}
+
+
+
+@media (max-width: 675px) {
+
 }

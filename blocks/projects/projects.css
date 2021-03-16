@@ -1,5 +1,5 @@
 .projects {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
@@ -115,7 +115,41 @@
   display: none;
 }
 
+@media (max-width: 1279px) {
 
+}
+
+
+
+@media (max-width: 1023px) {
+
+}
+
+
+
+@media (max-width: 675px) {
+
+}
+
+/* @media (max-width: 460px) {
+  .projects__card {
+    padding: 24px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    border-radius: 20px;
+    border: 3px solid #3F3D4B;
+    transform: translateY(0);
+    box-shadow: 0 0px 24px #3F3D4B;
+  }
+  .projects__card:hover {
+    transform: none;
+  }
+  .projects__open-link {
+    display: block;
+  }
+} */
 
 /* Messing around with title button styling */
 
@@ -136,26 +170,4 @@
   }
 } */
 
-/* More messing around with cards on Mobile... I'm not sure that I like this */
 
-@media (max-width: 460px) {
-  .projects__card {
-    padding: 24px 16px 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    border-radius: 20px;
-    border: 3px solid #3F3D4B;
-    transform: translateY(0);
-    box-shadow: 0 0px 24px #3F3D4B;
-  }
-
-  .projects__card:hover {
-    transform: none;
-  }
-
-  .projects__open-link {
-    display: block;
-  }
-}

@@ -2,7 +2,7 @@
   border-radius: 50%;
   width: 30%;
   opacity: .8;
-  min-width: 280px;
+  min-width: 220px;
   /* position: absolute;
   top: 15%;
   left: 15%; */
@@ -13,4 +13,23 @@
 
 .intro__headshot:hover {
   opacity: 1;
+}
+
+@media (max-width: 1279px) {
+
+}
+
+
+
+@media (max-width: 1023px) {
+  .intro__headshot {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
+
+
+
+@media (max-width: 675px) {
+
 }

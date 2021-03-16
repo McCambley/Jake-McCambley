@@ -13,9 +13,27 @@
 .intro__text {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   opacity: 0;
   transform: translateY(10px);
   /* animation: appear 1s ease-in-out 3s 1 forwards; */
   animation: appear 0s ease-in-out 0s 1 forwards;
+}
+
+@media (max-width: 1279px) {
+
+}
+
+
+
+@media (max-width: 1023px) {
+
+}
+
+
+
+@media (max-width: 675px) {
+  .intro__text {
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
 }
