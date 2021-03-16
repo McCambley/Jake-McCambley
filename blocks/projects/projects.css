@@ -137,6 +137,9 @@
     margin: 0;
     margin-bottom: .5em;
 }
+  .projects__projects {
+    grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
+  }
   .projects {
     padding: 72px 20px 36px;
   }
