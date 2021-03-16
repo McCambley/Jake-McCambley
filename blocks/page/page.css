@@ -20,7 +20,7 @@ html {
 
 .page {
   width: 100%;
-  /* min-width: 968px; */
+  min-width: 300px;
   background-color: #E9CEB0;
   font-family: 'Inter', sans-serif;
   margin: 0 auto 0;

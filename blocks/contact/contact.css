@@ -2,6 +2,13 @@
   min-height: 50vh;
   background-color: #C6A27B;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__content {
+  margin: 0 auto;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -40,5 +47,4 @@
 .contact__button:hover {
   cursor: pointer;
   background-color: rgb(165,125,79, .5);
-  color: black;
 }

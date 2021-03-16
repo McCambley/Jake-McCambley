@@ -8,13 +8,22 @@
   height: 100vh;
   min-height: 280px;
   width: 100%;
-  /* position: relative; */
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  /* position: relative; */
+
   /* padding-top: 200px;
   padding-left: 450px; */
   box-sizing: border-box;
+}
+
+.intro__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .intro__title {

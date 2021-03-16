@@ -1,18 +1,28 @@
 .about {
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 1200px;
+  width: 100%;
   background-color: #FFEFDD;
   width: 100%;
+  padding: 48px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__content {
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 48px;
-  padding: 48px 48px 0;
-  box-sizing: border-box;
+  max-width: 1200px;
 }
 
 .about__text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100%;
   box-sizing: border-box;
 }
@@ -22,7 +32,13 @@
   line-height: 1;
   font-weight: 900;
   margin: 0;
-  margin-bottom: .5em;
+  margin-bottom: 20px;
+}
+.about__subtitle {
+  font-weight: 900;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 1em;
 }
 
 .about__paragraph {
@@ -38,7 +54,7 @@
   border-radius: 50%;
   width: 100%;
   background-size: cover;
-  align-self: center;
+  /* align-self: center; */
   /* position: absolute;
   top: 15%;
   left: 15%; */
