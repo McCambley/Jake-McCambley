@@ -90,7 +90,7 @@
   .about {
     max-height: none;
     height: auto;
-    padding: 36px;
+    padding: 48px 36px;
   }
   .about__content {
     grid-template-columns: 1fr;
