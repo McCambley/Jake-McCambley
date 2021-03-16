@@ -40,6 +40,7 @@
   transform: translateY(0);
   box-shadow: none;
   transition: all .2s ease-in-out;
+  position: relative;
 }
 
 .projects__card:hover {
@@ -48,8 +49,8 @@
 }
 
 .projects__card-image-wrapper {
-  width: 20vw;
-  height: 20vw;
+  width: 200px;
+  height: 200px;
   max-width: 260px;
   max-height: 260px;
   overflow: hidden;
@@ -63,6 +64,17 @@
 
 .projects__card-image_landscape {
   width: 100%;
+}
+
+.projects__card-image-wrapper::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #00000038 30%, #ffffff44 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
 }
 
 .projects__project-title {
@@ -86,4 +98,63 @@
   margin: 0;
   line-height: 1;
   font-size: 12px;
+}
+
+/* Styling for open SVG... I'm not sure that I like this */
+
+.projects__open-link {
+  margin-top: 16px;
+  height: 32px;
+  /* border-radius: 50px;
+  border: 3px solid #3F3D4B;
+  padding: 8px; */
+  position: absolute;
+  top: 0px;
+  right: 12px;
+  display: none;
+}
+
+
+
+/* Messing around with title button styling */
+
+/* @media (max-width: 460px) {
+  .projects__project-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    width: 50%;
+    height: 1.5em;
+    border-radius: 50px;
+    border: 3px solid #3F3D4B;
+    transition: background-color .2s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+  }
+} */
+
+/* More messing around with cards on Mobile... I'm not sure that I like this */
+
+@media (max-width: 460px) {
+  .projects__card {
+    padding: 24px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    border-radius: 20px;
+    border: 3px solid #3F3D4B;
+    transform: translateY(0);
+    box-shadow: 0 0px 24px #3F3D4B;
+  }
+
+  .projects__card:hover {
+    transform: none;
+  }
+
+  .projects__open-link {
+    display: block;
+  }
 }
