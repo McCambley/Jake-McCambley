@@ -18,9 +18,9 @@
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/experience/experience.css);
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 @media (max-width: 1279px) {
 
