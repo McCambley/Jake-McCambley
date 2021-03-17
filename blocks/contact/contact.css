@@ -32,6 +32,8 @@
   font-weight: 400;
   max-width: 400px;
   margin-bottom: 20px;
+  font-family: 'RobotoSlab';
+  font-weight: 300;
 }
 
 .contact__button {
@@ -45,6 +47,7 @@
   transition: background-color .2s ease-in-out;
   text-decoration: none;
   color: inherit;
+  font-weight: 700;
 }
 
 .contact__button:hover {

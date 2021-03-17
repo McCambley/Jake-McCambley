@@ -37,17 +37,19 @@
   margin-bottom: 20px;
 }
 .about__subtitle {
-  font-weight: 900;
   margin: 0;
-  font-size: 20px;
   margin-bottom: 1em;
   line-height: 1.3;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 .about__paragraph {
   margin: 0;
   margin-bottom: 1em;
   line-height: 1.4;
+  font-family: 'RobotoSlab';
+  font-weight: 300;
 }
 
 .about__paragraph:last-child {
@@ -81,6 +83,7 @@
   width: 160px;
   height: 40px;
   background-color: #E9CEB0;
+  font-weight: 700;
 }
 
 @media (max-width: 1279px) {
@@ -126,5 +129,9 @@
 @media (max-width: 460px) {
   .about__experience-button {
     display: flex;
+  }
+
+  .about__subtitle {
+    font-size: 24px;
   }
 }
