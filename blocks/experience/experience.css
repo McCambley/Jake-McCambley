@@ -13,7 +13,7 @@
   font-size: 72px;
   line-height: 1;
   font-weight: 900;
-  margin: 0 auto;
+  margin: 0;
   margin-bottom: .5em;
   max-width: 50%;
   min-width: 300px;
@@ -21,8 +21,20 @@
   position: relative;
 }
 
+.experience__subtitle {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+  width: 75%;
+  font-family: 'RobotoSlab';
+  font-weight: 400;
+  opacity:  .8;
+}
+
 .experience__download {
-  content: "Hello?";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,13 +50,12 @@
   padding: 5px;
   position: sticky;
   align-self: flex-end;
-  bottom: 48px;
-  right: 48px;
+  bottom: 40px;
   /* box-shadow: 0px 0px 10px #3F3D4B; */
 }
 
 .experience__download-text {
-  display: visible;
+  font-weight: 700;
 }
 .experience__download-icon {
   width: 20px;
@@ -118,6 +129,8 @@
   margin: 0 0 1em;
   line-height: 1;
   font-size: 12px;
+  font-family: 'RobotoSlab';
+  font-weight: 400;
 }
 
 .experience__logo-wrapper {
@@ -143,7 +156,8 @@
   margin: 0 0 14px;
   line-height: 1.2;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
+  font-family: 'RobotoSlab';
 }
 
 .experience__skills {
@@ -159,16 +173,121 @@
  padding-top: 24px;
 }
 
+@media (max-width: 1279px) {
 
-/* Reordering the grid layout to put the logo on top */
+}
+
+
+
+@media (max-width: 1023px) {
+  .experience {
+    padding: 66px 48px 48px;
+  }
+  .experience__title {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+  .experience__positions {
+    gap: 28px;
+  }
+  .experience__role {
+    box-shadow: 0 0px 12px #3F3D4B;
+    opacity: 1;
+  }
+
+  .experience__role-title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 675px) {
+  .experience {
+    padding: 66px 20px 20px;
+  }
+
+  .experience__title {
+    font-size: 48px;
+    margin-bottom: 12px;
+  }
+
+  .experience__subtitle {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+
+  .experience__download {
+    width: 24px;
+    bottom: 20px;
+    background-color: #E9CEB0;
+    box-shadow: 0 0px 4px #3F3D4B;
+    }
+
+  .experience__download-text {
+    display: none;
+  }
+
+  .experience__download-icon {
+    display: inherit;
+  }
+
+  /* Reordering the grid layout to put the logo on top */
+  .experience__role {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "a a a b"
+    "c c c c"
+    "d d d d"
+    ;
+    gap: 12px;
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .experience__role-title {
+    text-align: left;
+    max-width: 70%;
+    grid-area: a;
+  }
+
+  .experience__logo-wrapper {
+    /* order: -1; */
+    padding: 0;
+    max-width: 100%;
+    /* justify-self: right;
+    position: absolute;
+    top: 28px;
+    right: 28px; */
+    grid-area: b;
+  }
+
+  .experience__time-and-place {
+    grid-area: c;
+  }
+
+  .experience__text {
+    grid-area: d;
+  }
+}
+
 
 @media (max-width: 460px) {
+  .experience__title {
+    max-width: 100%;
+    margin: 0 0 12px;
+    text-align: right;
+  }
+
+  .experience__subtitle {
+    text-align: right;
+    width: 100%;
+  }
+
   .experience__role {
-    grid-template-columns: 1fr;
+    padding: 20px;
   }
-  .experience__logo-wrapper {
-    order: -1;
-    max-width: 25%;
-    justify-self: center;
+
+  .experience__role-title {
+    font-size: 36px;
   }
+
 }
