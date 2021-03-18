@@ -4,23 +4,32 @@
 
 @keyframes bounce {
   0% {
-    transform: translateY(-30px);
+    transform: translateY(-50px);
     opacity: 0;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease;
   }
   45% {
-    transform: translateY(30px);
+    transform: translateY(-10x);
     opacity: 1;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease;
   }
   55% {
-    transform: translateY(30px);
+    transform: translateY(0px);
     opacity: 1;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease;
   }
   100% {
-    transform: translateY(90px);
+    transform: translateY(30px);
     opacity: 0;
+  }
+}
+
+@keyframes popup {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }
 
@@ -88,10 +97,23 @@
   transform: scale(.95);
 }
 
+.intro__scroll-button {
+  display: none;
+  border-radius: 50px;
+  border: 2px solid #F4F5F5;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transform: scale(0);
+  animation: popup .5s ease 1s forwards;
+}
+
 .intro__scroll-icon {
   display: none;
   opacity: 0;
-  animation: bounce 1.5s 3s infinite forwards;
+  animation: bounce 1.5s infinite forwards;
 }
 
 /* * {
@@ -137,8 +159,12 @@
   .intro__links {
     display: none;
   }
+
+  .intro__scroll-button {
+    display: flex;
+  }
+
   .intro__scroll-icon {
     display: initial;
-
   }
 }

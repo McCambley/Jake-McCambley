@@ -52,5 +52,6 @@
 @media (max-width: 675px) {
   .intro__subtitle {
     font-size: 20px;
+    margin-bottom: 48px;
   }
 }

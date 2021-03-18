@@ -39,6 +39,15 @@
 
 }
 
+.footer__author-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer__copyright {
   margin: 0;
   font-size: 12px;
