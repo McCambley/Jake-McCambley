@@ -64,7 +64,7 @@
 }
 
 .intro__link {
-  /* color: #3f3d4b80; */
+  /* color: #28262B80; */
   /* text-transform: uppercase; */
   font-size: 16px;
   display: flex;
@@ -73,7 +73,7 @@
   width: 112px;
   height: 32px;
   border-radius: 50px;
-  border: 2px solid #3F3D4B;
+  border: 2px solid #F4F5F5;
   transform: scale(1);
   transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
   text-decoration: none;
@@ -81,8 +81,7 @@
 }
 
 .intro__link:hover {
-  background-color: rgb(165,125,79, .5);
-  color: black;
+  background-color: #3A3C41;
 }
 
 .intro__link:active {

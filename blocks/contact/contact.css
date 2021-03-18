@@ -1,6 +1,6 @@
 .contact {
   padding: 48px 0;
-  background-color: #C6A27B;
+  background-color: #26282B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@
   width: 200px;
   height: 56px;
   border-radius: 50px;
-  border: 3px solid #3F3D4B;
+  border: 3px solid #F4F5F5;
   transition: background-color .2s ease-in-out;
   text-decoration: none;
   color: inherit;
@@ -52,7 +52,7 @@
 
 .contact__button:hover {
   cursor: pointer;
-  background-color: rgb(165,125,79, .5);
+  background-color: #3A3C41;
 }
 
 @media (max-width: 1279px) {

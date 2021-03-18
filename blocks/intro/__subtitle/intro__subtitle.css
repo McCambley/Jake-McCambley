@@ -27,15 +27,15 @@
   position: relative;
 }
 
-.intro__subtitle::after {
+/* .intro__subtitle::after {
   content: "";
   height: 1px;
   position: absolute;
   bottom: 0;
   background-color: transparent;
-  box-shadow: 0px 10px 15px #3F3D4B;
+  box-shadow: 0px 10px 15px #28262B;
   animation: slide 1s ease-in-out 5s 1;
-}
+} */
 
 @media (max-width: 1279px) {
 
