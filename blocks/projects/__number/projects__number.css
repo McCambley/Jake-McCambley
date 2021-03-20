@@ -1,0 +1,15 @@
+.projects__number {
+  display: none;
+  /* color: #FFEFDD;
+  text-shadow: 0 0 25px #28262B;
+  font-size: 72px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+  opacity: .9; */
+}

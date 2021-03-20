@@ -1,0 +1,31 @@
+.projects__subtitle {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+  width: 50%;
+  font-family: 'RobotoSlab';
+  font-weight: 400;
+  opacity: .8;
+}
+
+@media (max-width: 1023px) {
+  .projects__subtitle {
+    width: 75%;
+  }
+}
+
+@media (max-width: 675px) {
+  .projects__subtitle {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 460px) {
+  .projects__subtitle {
+    text-align: right;
+    width: 100%;
+  }
+}

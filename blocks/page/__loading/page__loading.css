@@ -1,0 +1,67 @@
+@keyframes overlay {
+  0% {
+    opacity: 1;
+    height: 100vh;
+    width: 100%;
+  }
+  25% {
+    opacity: 1;
+    height: 100vh;
+    width: 100%;
+  }
+  99% {
+    opacity: 0;
+    height: 100vh;
+    width: 100%;
+  }
+  100% {
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+}
+
+.page__loading {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #2A2C2F;
+  z-index: 3;
+  /* animation: overlay 1s ease-in 2s 1 forwards; */
+  animation: overlay 1.5s ease-in 1s forwards;
+}
+
+@media (max-width: 1279px) {
+
+}
+
+@media (max-width: 1023px) {
+
+}
+
+@media (max-width: 675px) {
+
+}
+
+/* Debugging breakpoints */
+
+@media (min-width: 1280px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 760px) {
+
+}
+
+@media (min-width: 375px) {
+
+}

@@ -1,0 +1,13 @@
+.intro__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+  .intro__content {
+    flex-direction: column;
+  }
+}

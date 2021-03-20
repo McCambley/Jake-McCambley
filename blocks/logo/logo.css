@@ -1,25 +1,7 @@
+@import url(./__image/logo__image.css);
+
 .logo {
   height: 36px;
   width: 36px;
 }
 
-.logo__image {
- width: 100%;
- height: 100%;
-}
-
-@media (max-width: 1279px) {
-
-}
-
-
-
-@media (max-width: 1023px) {
-
-}
-
-
-
-@media (max-width: 675px) {
-
-}

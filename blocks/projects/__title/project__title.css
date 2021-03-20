@@ -1,0 +1,13 @@
+.projects__title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 460px) {
+  .projects__title {
+    align-self: flex-end;
+  }
+}

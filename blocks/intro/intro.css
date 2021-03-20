@@ -1,7 +1,15 @@
+@import url("./__content/intro__content.css");
 @import url("./__headshot/intro__headshot.css");
-@import url("./__text/intro__text.css");
+@import url("./__link/intro__link.css");
+@import url("./__links/intro__links.css");
+@import url("./__scroll-button/intro__scroll-button.css");
+@import url("./__scroll-icon/intro__scroll-icon.css");
 @import url("./__subtitle/intro__subtitle.css");
+@import url("./__text/intro__text.css");
+@import url("./__title/intro__title.css");
 
+
+/* Animation frames for buttons? */
 @keyframes bounce {
   0% {
     transform: translateY(-50px);
@@ -24,11 +32,28 @@
   }
 }
 
+/* Animation for text appear */
 @keyframes popup {
   from {
     transform: scale(0);
   }
   to {
+    transform: scale(1);
+  }
+}
+
+/* Animation for button appear on larger screens */
+@keyframes button-pop {
+  0% {
+    opacity: 0;
+    transform: scale(.7);
+  }
+  25% {
+    opacity: .6;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
     transform: scale(1);
   }
 }
@@ -46,125 +71,4 @@
   /* padding-top: 200px;
   padding-left: 450px; */
   box-sizing: border-box;
-}
-
-.intro__content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.intro__title {
-  margin: 0;
-  font-size: 72px;
-  line-height: 1;
-  font-weight: 900;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.intro__links {
-  display: flex;
-  justify-content: space-between;
-  width: 75%;
-  align-self: center;
-}
-
-.intro__link {
-  /* color: #28262B80; */
-  /* text-transform: uppercase; */
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 112px;
-  height: 32px;
-  border-radius: 50px;
-  border: 2px solid #F4F5F5;
-  transform: scale(1);
-  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
-  text-decoration: none;
-  color: inherit;
-}
-
-.intro__link:hover {
-  background-color: #3A3C41;
-}
-
-.intro__link:active {
-  transform: scale(.95);
-}
-
-.intro__scroll-button {
-  display: none;
-  border-radius: 50px;
-  border: 2px solid #F4F5F5;
-  width: 32px;
-  height: 32px;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transform: scale(0);
-  animation: popup .5s ease 1s forwards;
-}
-
-.intro__scroll-icon {
-  display: none;
-  opacity: 0;
-  animation: bounce 1.5s infinite forwards;
-}
-
-/* * {
-  border: 1px solid red;
-} */
-
-@media (max-width: 1279px) {
-
-}
-
-
-
-@media (max-width: 1023px) {
-  .intro__content {
-    flex-direction: column;
-  }
-  .intro__title {
-    font-size: 48px;
-  }
-}
-
-
-
-@media (max-width: 675px) {
-  .intro__links {
-    width: 100%;
-
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
-  }
-  .intro__link {
-    margin-bottom: 16px;
-    width: 104px;
-    height: 28px;
-    font-size: 14px;
-  }
-
-
-}
-
-@media (max-width: 460px) {
-  .intro__links {
-    display: none;
-  }
-
-  .intro__scroll-button {
-    display: flex;
-  }
-
-  .intro__scroll-icon {
-    display: initial;
-  }
 }

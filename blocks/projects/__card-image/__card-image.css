@@ -1,0 +1,20 @@
+.projects__card-image {
+  height: 100%;
+  align-self: flex-start;
+  filter: grayscale(50%) blur(1px);
+  transition: filter .2s ease-in-out;
+}
+
+.projects__card:hover .projects__card-image {
+  filter: grayscale(15%) blur(0);
+}
+
+@media (max-width: 1023px) {
+  .projects__card-image {
+    filter: grayscale(40%) blur(0);
+  }
+
+  .projects__card:hover .projects__card-image {
+    filter: grayscale(40%) blur(0);
+  }
+}

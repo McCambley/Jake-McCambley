@@ -1,0 +1,34 @@
+.projects__icon-box {
+  justify-content: space-between;
+  width: 84px;
+  align-self: center;
+  position: absolute;
+  bottom: 8px;
+  /* transiting properties */
+  display: flex;
+  transform: scale(0);
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.projects__card:hover .projects__icon-box {
+  display: flex;
+  transform: scale(1);
+  opacity: 1;
+}
+
+@media (max-width: 1023px) {
+  .projects__icon-box {
+    display: flex;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 675px) {
+  .projects__icon-box {
+    justify-content: space-between;
+    width: 72px;
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,26 @@
+.projects__card-image-wrapper {
+  width: 200px;
+  height: 200px;
+  max-width: 260px;
+  max-height: 260px;
+  overflow: hidden;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 3px #28262B);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .projects__card-image-wrapper::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #00000038 30%, #ffffff44 100%);
+  background: radial-gradient(circle, rgba(63,61,75,0.6068802521008403) 0%, rgba(255,255,255,0) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+} */

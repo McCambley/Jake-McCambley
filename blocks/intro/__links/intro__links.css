@@ -1,0 +1,22 @@
+.intro__links {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  align-self: center;
+}
+
+@media (max-width: 675px) {
+  .intro__links {
+    width: 100%;
+
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+  }
+}
+
+@media (max-width: 460px) {
+  .intro__links {
+    display: none;
+  }
+}

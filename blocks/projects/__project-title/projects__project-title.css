@@ -1,0 +1,60 @@
+.projects__project-title {
+  font-weight: 900;
+  font-size: 28px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0;
+  line-height: 1.2;
+  margin: 14px 0;
+}
+
+@media (max-width: 675px) {
+  .projects__title {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* Fancy underline on hover... not sure if I like */
+
+/* .projects__project-title::after {
+  content: "";
+  height: 2px;
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  border-radius: 50px;
+  background-color: #F4F5F5;
+  transform: scale(0) translate(-50%, 0);
+  transition: all .2s ease-in-out;
+  visibility: hidden;
+}
+
+.projects__card:hover .projects__project-title::after {
+  transform: scale(1) translate(-50%, 0);
+  visibility: visible;
+} */
+
+/* This would make the title of each project a button */
+
+/* @media (max-width: 460px) {
+  .projects__project-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    width: 50%;
+    height: 1.5em;
+    border-radius: 50px;
+    border: 3px solid #F4F5F5;
+    transition: background-color .2s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+  }
+} */
