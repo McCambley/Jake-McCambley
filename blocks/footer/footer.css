@@ -9,12 +9,14 @@
   padding: 0 48px 0;
   box-sizing: border-box;
   box-shadow: 0 0 8px #28262B;
+  color: #565b61;
+  font-family: 'RobotoSlab';
 }
 
 .footer__author {
   margin: 0;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
   display: flex;
   align-items: center;
   line-height: 18px;
@@ -35,7 +37,7 @@
 .footer__social-icon {
   width: 28px;
   height: 28px;
-  fill: #F4F5F5;
+  fill: #565B61;
 
 }
 
@@ -52,5 +54,5 @@
   margin: 0;
   font-size: 12px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 400;
 }
