@@ -1,0 +1,25 @@
+.contact__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 56px;
+  border-radius: 50px;
+  border: 3px solid #F4F5F5;
+  transition: background-color .2s ease-in-out;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+.contact__button:hover {
+  cursor: pointer;
+  background-color: #3A3C41;
+}
+
+@media (max-width: 1023px) {
+  .contact__button {
+    width: 160px;
+    height: 40px;
+  }
+}

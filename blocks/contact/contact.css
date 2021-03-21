@@ -1,3 +1,8 @@
+@import url(./__button/contact__button.css);
+@import url(./__content/contact__content.css);
+@import url(./__subtitle/contact__subtitle.css);
+@import url(./__title/contact__title.css);
+
 .contact {
   padding: 48px 0;
   background-color: #26282B;
@@ -6,76 +11,3 @@
   align-items: center;
 }
 
-.contact__content {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 16px;
-  box-sizing: border-box;
-}
-
-.contact__title {
-  font-size: 72px;
-  line-height: 1;
-  font-weight: 900;
-  margin: 0;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.contact__subtitle {
-  margin: 0;
-  line-height: 1.2;
-  text-align: center;
-  font-weight: 400;
-  max-width: 400px;
-  margin-bottom: 20px;
-  font-family: 'RobotoSlab';
-  font-weight: 300;
-}
-
-.contact__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 56px;
-  border-radius: 50px;
-  border: 3px solid #F4F5F5;
-  transition: background-color .2s ease-in-out;
-  text-decoration: none;
-  color: inherit;
-  font-weight: 700;
-}
-
-.contact__button:hover {
-  cursor: pointer;
-  background-color: #3A3C41;
-}
-
-@media (max-width: 1279px) {
-
-}
-
-
-
-@media (max-width: 1023px) {
-  .contact__title {
-    font-size: 48px;
-  }
-  .contact__subtitle {
-    font-size: 16px;
-  }
-  .contact__button {
-    width: 160px;
-    height: 40px;
-  }
-}
-
-
-
-@media (max-width: 675px) {
-
-}
