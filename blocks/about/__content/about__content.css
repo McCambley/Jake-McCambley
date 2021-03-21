@@ -1,0 +1,19 @@
+.about__content {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 48px;
+  max-width: 1200px;
+}
+
+@media (max-width: 1023px) {
+  .about__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 675px) {
+  .about__content {
+    gap: 24px;
+  }
+}

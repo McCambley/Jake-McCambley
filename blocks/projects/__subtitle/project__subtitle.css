@@ -9,6 +9,7 @@
   font-family: 'RobotoSlab';
   font-weight: 400;
   opacity: .8;
+  max-width: 664px;
 }
 
 @media (max-width: 1023px) {

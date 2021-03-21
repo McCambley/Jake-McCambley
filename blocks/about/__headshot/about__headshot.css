@@ -1,0 +1,19 @@
+.about__headshot {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 380px;
+  background-size: cover;
+  /* align-self: center; */
+  /* position: absolute;
+  top: 15%;
+  left: 15%; */
+  /* filter: drop-shadow(0 0 0.75rem #28262B); */
+  opacity: .9;
+  filter: drop-shadow(0 0 3px #28262B);
+}
+
+@media (max-width: 675px) {
+  .about__headshot {
+    justify-self: center;
+  }
+}

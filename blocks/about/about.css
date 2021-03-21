@@ -1,3 +1,11 @@
+@import url(./__content/about__content.css);
+@import url(./__experience-button/about__experience-button.css);
+@import url(./__headshot/about__headshot.css);
+@import url(./__paragraph/about__paragraph.css);
+@import url(./__subtitle/about__subtitle.css);
+@import url(./__text/about__text.css);
+@import url(./__title/about__title.css);
+
 .about {
   height: 100vh;
   max-height: 1200px;
@@ -13,129 +21,18 @@
   overflow: hidden;
 }
 
-.about__content {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 48px;
-  max-width: 1200px;
-}
-
-.about__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-.about__title {
-  font-size: 72px;
-  line-height: 1.1;
-  font-weight: 900;
-  margin: 0;
-  margin-bottom: 20px;
-}
-.about__subtitle {
-  margin: 0;
-  margin-bottom: 1em;
-  line-height: 1.3;
-  font-size: 28px;
-  font-weight: 400;
-}
-
-.about__paragraph {
-  margin: 0;
-  margin-bottom: 1em;
-  line-height: 1.4;
-  font-family: 'RobotoSlab';
-  font-weight: 300;
-}
-
-.about__paragraph:last-child {
-  margin-bottom: 0;
-}
-
-.about__headshot {
-  border-radius: 50%;
-  width: 100%;
-  max-width: 380px;
-  background-size: cover;
-  /* align-self: center; */
-  /* position: absolute;
-  top: 15%;
-  left: 15%; */
-  /* filter: drop-shadow(0 0 0.75rem #28262B); */
-  opacity: .9;
-  filter: drop-shadow(0 0 3px #28262B);
-}
-
-.about__experience-button {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  border: 3px solid #F4F5F5;
-  transition: background-color .2s ease-in-out;
-  text-decoration: none;
-  color: inherit;
-  justify-self: right;
-  width: 160px;
-  height: 40px;
-  background-color: #3a3c41;
-  font-weight: 700;
-}
-
-.about__experience-button:hover {
-  background-color: #43474C;
-}
-
-@media (max-width: 1279px) {
-
-}
-
-
-
 @media (max-width: 1023px) {
   .about {
     max-height: none;
     height: auto;
     padding: 48px 36px;
   }
-  .about__content {
-    grid-template-columns: 1fr;
-  }
-  .about__subtitle {
-    width: 80%;
-  }
 }
-
-
 
 @media (max-width: 675px) {
   .about {
     padding: 36px 20px;
   }
-  .about__content {
-    gap: 24px;
-  }
-  .about__title {
-    font-size: 48px;
-  }
-  .about__subtitle {
-    width: 100%;
-  }
-  .about__headshot {
-    justify-self: center;
-  }
-  .about__experience-button {
-    display: flex;
-  }
 }
 
-@media (max-width: 460px) {
 
-  .about__subtitle {
-    font-size: 24px;
-  }
-}
