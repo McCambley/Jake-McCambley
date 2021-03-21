@@ -1,3 +1,20 @@
+@import url(./__download-icon/experience__download-icon.css);
+@import url(./__download-text/experience__download-text.css);
+@import url(./__download/experience__download.css);
+@import url(./__logo-wrapper/experience__logo-wrapper.css);
+@import url(./__logo/experience__logo.css);
+@import url(./__positions/experience__positions.css);
+@import url(./__role-description/experience__role-description.css);
+@import url(./__role-place/experience__role-place.css);
+@import url(./__role-time/experience__role-time.css);
+@import url(./__role-title/experience__role-title.css);
+@import url(./__role/experience__role.css);
+@import url(./__skills/experience__skills.css);
+@import url(./__subtitle/experience__subtitle.css);
+@import url(./__text/experience__text.css);
+@import url(./__time-and-place/experience__time-and-place.css);
+@import url(./__title/experience__title.css);
+
 .experience {
   min-height: 100vh;
   display: flex;
@@ -9,197 +26,9 @@
   position: relative;
 }
 
-.experience__title {
-  font-size: 72px;
-  line-height: 1;
-  font-weight: 900;
-  margin: 0;
-  margin-bottom: .5em;
-  max-width: 50%;
-  min-width: 300px;
-  text-align: center;
-  position: relative;
-}
-
-.experience__subtitle {
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 1.4;
-  font-weight: 400;
-  text-align: center;
-  width: 75%;
-  max-width: 828px;
-  font-family: 'RobotoSlab';
-  font-weight: 400;
-  opacity:  .8;
-}
-
-.experience__download {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  height: 24px;
-  border-radius: 50px;
-  border: 3px solid #F4F5F5;
-  transition: background-color .2s ease-in-out;
-  text-decoration: none;
-  color: inherit;
-  font-size: inherit;
-  background-color: inherit;
-  padding: 5px;
-  position: sticky;
-  align-self: flex-end;
-  bottom: 40px;
-  /* box-shadow: 0px 0px 10px #28262B; */
-}
-
-.experience__download-text {
-  font-weight: 700;
-}
-.experience__download-icon {
-  width: 20px;
-  display: none;
-}
-
-.experience__download:hover {
-  cursor: pointer;
-  background-color: #3A3C41;
-  /* color: black; */
-  /* box-shadow: 0px 0px 8px #28262B; */
-
-}
-
-.experience__positions {
-  display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-  grid-template-columns: 1fr;
-  gap: 36px;
-  width: 100%;
-  max-width: 800px;
-}
-
-.experience__role {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-  padding: 28px;
-  box-sizing: border-box;
-  border-radius: 20px;
-  transform: translateY(0);
-  box-shadow: none;
-  transition: all .2s ease-in-out;
-  opacity: .9;
-}
-
-.experience__role:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0px 12px #28262B;
-  background-color: #3A3C41;
-  opacity: 1;
-}
-
-.experience__role-title {
-  font-weight: 900;
-  font-size: 60px;
-  max-width: 100%;
-  margin: 0;
-  align-self: flex-end;
-  text-align: right;
-}
-
-.experience__time-and-place {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 100%;
-}
-
-.experience__role-place {
-  font-weight: 700;
-  font-size: 18px;
-  max-width: 100%;
-  margin: 0 0 4px;
-  line-height: 1.2;
-  text-decoration: none;
-  color: inherit;
-}
-
-.experience__role-time {
-  margin: 0 0 1em;
-  line-height: 1;
-  font-size: 12px;
-  font-family: 'RobotoSlab';
-  font-weight: 400;
-}
-
-.experience__logo-wrapper {
-  width: 100%;
-  height: 100%;
-  padding: 24px;
-  overflow: hidden;
-  box-sizing: border-box;
-  /* filter: drop-shadow(0 0 3px #28262B); */
-}
-
-.experience__logo {
-  width: 100%;
-}
-
-.experience__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.experience__role-description {
-  margin: 0 0 14px;
-  line-height: 1.2;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: 'RobotoSlab';
-}
-
-.experience__skills {
- width: 100%;
- max-width: 500px;
- margin: 0 auto 28px;
- font-size: 12px;
- font-weight: 700;
- letter-spacing: 1px;
- line-height: 1.8;
- text-transform: uppercase;
- text-align: center;
- padding-top: 24px;
-}
-
-@media (max-width: 1279px) {
-
-}
-
-
-
 @media (max-width: 1023px) {
   .experience {
     padding: 66px 48px 48px;
-  }
-  .experience__title {
-    max-width: 90%;
-    margin-bottom: 20px;
-  }
-  .experience__positions {
-    gap: 28px;
-  }
-  .experience__role {
-    box-shadow: 0 0px 4px #28262B;
-    background-color: #3A3C41;
-    opacity: 1;
-  }
-
-  .experience__role-title {
-    font-size: 48px;
   }
 }
 
@@ -207,95 +36,4 @@
   .experience {
     padding: 70px 20px 20px;
   }
-
-  .experience__title {
-    font-size: 48px;
-    margin-bottom: 16px;
-  }
-
-  .experience__subtitle {
-    margin-bottom: 20px;
-    width: 75%;
-  }
-
-  .experience__download {
-    width: 24px;
-    bottom: 20px;
-    background-color: #2A2C2F;
-    box-shadow: 0 0px 4px #28262B;
-    }
-
-  .experience__download-text {
-    display: none;
-  }
-
-  .experience__download-icon {
-    display: inherit;
-  }
-
-  /* Reordering the grid layout to put the logo on top */
-  .experience__role {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas:
-    "a a a b"
-    "c c c c"
-    "d d d d"
-    ;
-    gap: 12px;
-    position: relative;
-    padding-top: 20px;
-  }
-
-  .experience__role-title {
-    text-align: left;
-    max-width: 70%;
-    grid-area: a;
-  }
-
-  .experience__logo-wrapper {
-    /* order: -1; */
-    padding: 0;
-    max-width: 100%;
-    /* justify-self: right;
-    position: absolute;
-    top: 28px;
-    right: 28px; */
-    grid-area: b;
-  }
-
-  .experience__time-and-place {
-    grid-area: c;
-  }
-
-  .experience__text {
-    grid-area: d;
-  }
-}
-
-
-@media (max-width: 460px) {
-  .experience__title {
-    max-width: 100%;
-    margin: 0 0 16px;
-    text-align: right;
-  }
-
-  .experience__subtitle {
-    text-align: right;
-    width: 100%;
-  }
-
-  .experience__role {
-    padding: 20px;
-  }
-
-  .experience__role:hover {
-    transform: translate(0);
-    box-shadow: 0 0px 4px #28262B;
-  }
-
-  .experience__role-title {
-    font-size: 36px;
-  }
-
 }

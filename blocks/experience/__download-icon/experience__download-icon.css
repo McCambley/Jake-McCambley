@@ -1,0 +1,10 @@
+.experience__download-icon {
+  width: 20px;
+  display: none;
+}
+
+@media (max-width: 675px) {
+  .experience__download-icon {
+    display: inherit;
+  }
+}

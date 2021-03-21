@@ -1,0 +1,9 @@
+.experience__role-place {
+  font-weight: 700;
+  font-size: 18px;
+  max-width: 100%;
+  margin: 0 0 4px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: inherit;
+}

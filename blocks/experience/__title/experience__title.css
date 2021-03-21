@@ -1,0 +1,33 @@
+.experience__title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: .5em;
+  max-width: 50%;
+  min-width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+@media (max-width: 1023px) {
+  .experience__title {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 675px) {
+  .experience__title {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 460px) {
+  .experience__title {
+    max-width: 100%;
+    margin: 0 0 16px;
+    text-align: right;
+  }
+}

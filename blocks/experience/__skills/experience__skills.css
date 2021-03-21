@@ -1,0 +1,12 @@
+.experience__skills {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 28px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 24px;
+ }

@@ -1,0 +1,11 @@
+.experience__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (max-width: 675px) {
+  .experience__text {
+    grid-area: d;
+  }
+}

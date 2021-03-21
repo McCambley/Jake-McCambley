@@ -1,0 +1,27 @@
+.experience__subtitle {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+  width: 75%;
+  max-width: 828px;
+  font-family: 'RobotoSlab';
+  font-weight: 400;
+  opacity:  .8;
+}
+
+@media (max-width: 675px) {
+  .experience__subtitle {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+}
+
+@media (max-width: 460px) {
+  .experience__subtitle {
+    text-align: right;
+    width: 100%;
+  }
+}

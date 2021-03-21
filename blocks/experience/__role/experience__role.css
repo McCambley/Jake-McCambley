@@ -1,0 +1,54 @@
+.experience__role {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  padding: 28px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transform: translateY(0);
+  box-shadow: none;
+  transition: all .2s ease-in-out;
+  opacity: .9;
+}
+
+.experience__role:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0px 12px #28262B;
+  background-color: #3A3C41;
+  opacity: 1;
+}
+
+@media (max-width: 1023px) {
+  .experience__role {
+    box-shadow: 0 0px 4px #28262B;
+    background-color: #3A3C41;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 675px) {
+  /* Reordering the grid layout to put the logo on top */
+  .experience__role {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "a a a b"
+    "c c c c"
+    "d d d d"
+    ;
+    gap: 12px;
+    position: relative;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  .experience__role {
+    padding: 20px;
+  }
+
+  .experience__role:hover {
+    transform: translate(0);
+    box-shadow: 0 0px 4px #28262B;
+  }
+}

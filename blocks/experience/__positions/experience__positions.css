@@ -1,0 +1,14 @@
+.experience__positions {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  grid-template-columns: 1fr;
+  gap: 36px;
+  width: 100%;
+  max-width: 800px;
+}
+
+@media (max-width: 1023px) {
+  .experience__positions {
+    gap: 28px;
+  }
+}

@@ -1,0 +1,10 @@
+
+.experience__download-text {
+  font-weight: 700;
+}
+
+@media (max-width: 675px) {
+  .experience__download-text {
+    display: none;
+  }
+}

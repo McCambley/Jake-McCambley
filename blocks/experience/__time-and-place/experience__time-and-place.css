@@ -1,0 +1,12 @@
+.experience__time-and-place {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+@media (max-width: 675px) {
+  .experience__time-and-place {
+    grid-area: c;
+  }
+}
