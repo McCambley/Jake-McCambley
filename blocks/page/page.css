@@ -1,6 +1,18 @@
 @import url(./__loading-logo/page__loading-logo.css);
 @import url(./__loading/page__loading.css);
 
+@keyframes page-limit {
+  0% {
+    overflow: hidden;
+  }
+  99% {
+    overflow: hidden;
+  }
+  100% {
+    overflow: auto;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,6 +27,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+  animation: page-limit 2.5s linear;
 }
 
 @media (max-width: 1279px) {
