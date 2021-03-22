@@ -6,9 +6,6 @@
   margin: 0;
   line-height: 1.2;
   margin: 14px 0;
-  color: inherit;
-  text-decoration: none;
-  position: relative;
 }
 
 @media (max-width: 675px) {
