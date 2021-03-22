@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Hey there! I'm a full stack developer with experience building websites and web applications. Check out my recent work and past professional experience.">
     <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/favicon-white/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-white/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-white/favicon-16x16.png">
@@ -21,13 +22,13 @@
   <!-- header -->
   <header class="header">
     <a href="./index.html" class="logo grow">
-      <img src="./images/logo-new-nobrdr.svg" alt="Logo" class="logo__image grow">
+      <img src="./images/logo-new-nobrdr.svg" alt="Jake McCambley" class="logo__image grow">
       <!-- <img src="./images/logo.png" alt="Logo" class="logo__image grow"> -->
     </a>
     <nav class="header__nav-links">
       <a class="header__nav-link transparency" href="#">Home</a>
       <a class="header__nav-link transparency" href="#about">About</a>
-      <a class="header__nav-link transparency" href="https://medium.com/@JakeMcCambley" target="_blank">Blog</a>
+      <a class="header__nav-link transparency" href="https://medium.com/@JakeMcCambley" rel="noopener" target="_blank">Blog</a>
       <a class="header__nav-link transparency" href="#projects">Projects</a>
       <a class="header__nav-link transparency" href="./experience/index.html">Experience</a>
       <a class="header__nav-link transparency" href="#contact">Contact</a>
@@ -50,7 +51,7 @@
             <a href="./experience/index.html" class="intro__link">Experience</a>
           </nav>
         </div>
-        <a href="#about" class="intro__scroll-button">
+        <a href="#about" class="intro__scroll-button" aria-label="Scroll to about section">
           <svg class="intro__scroll-icon" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <line x1="12" y1="5" x2="12" y2="19" />
@@ -91,11 +92,11 @@
         <!-- Project card -->
           <li class="projects__card">
             <div class="projects__card-image-wrapper">
-              <img src="./images/mandrian.png" alt="Mandrian" class="projects__card-image">
+              <img src="./images/mandrian.png" alt="Mandrian art" class="projects__card-image">
               <p class="projects__number">1</p>
             </div>
             <h4 class="projects__project-title transparency">
-              <a href="https://mccambley.github.io/piet-mondrian-grid/index.html" target="_blank" class="projects__title-link">Mondrian Grid</a>
+              <a href="https://mccambley.github.io/piet-mondrian-grid/index.html" rel="noopener" target="_blank" class="projects__title-link">Mondrian Grid</a>
             </h4>
             <p class="projects__project-description">How can we write code to replicate iconic works of art? This project utilizes a grid layout with assorted cell sizes to create a responsive replica of an abstract piece by Piet Mondrian.</p>
             <p class="projects__project-tech">CSS | Grid</p>
@@ -106,7 +107,7 @@
                   <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                 </svg>
               </a>
-              <a href="https://mccambley.github.io/piet-mondrian-grid/index.html" target="_blank" aria-label="View project live">
+              <a href="https://mccambley.github.io/piet-mondrian-grid/index.html" rel="noopener" target="_blank" aria-label="View project live">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
@@ -120,22 +121,22 @@
         <!-- Project card -->
           <li class="projects__card">
             <div class="projects__card-image-wrapper">
-              <img src="./images/feynman.png" alt="Feynman" class="projects__card-image">
+              <img src="./images/feynman.png" alt="Richard Feynman" class="projects__card-image">
               <p class="projects__number">2</p>
             </div>
             <h4 class="projects__project-title transparency">
-              <a href="https://mccambley.github.io/web_project_1/" target="_blank" class="projects__title-link">Learning how to learn</a>
+              <a href="https://mccambley.github.io/web_project_1/" rel="noopener" target="_blank" class="projects__title-link">Learning how to learn</a>
             </h4>
             <p class="projects__project-description">This project is an exercise in how to communicate information more effectively using design layouts. This pixel perfect page was my first exercise in transforming an idea to an interactive website.</p>
             <p class="projects__project-tech">CSS | Flex</p>
             <div class="projects__icon-box">
-              <a href="https://github.com/McCambley/web_project_1" target="_blank" aria-label="View on Github">
+              <a href="https://github.com/McCambley/web_project_1" rel="noopener" target="_blank" aria-label="View on Github">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                 </svg>
               </a>
-              <a href="https://mccambley.github.io/web_project_1/" target="_blank" aria-label="View project live">
+              <a href="https://mccambley.github.io/web_project_1/" rel="noopener" target="_blank" aria-label="View project live">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
@@ -149,22 +150,22 @@
         <!-- Project card -->
           <li class="projects__card">
             <div class="projects__card-image-wrapper">
-              <img src="./images/form.png" alt="Form" class="projects__card-image">
+              <img src="./images/form.png" alt="Custom form" class="projects__card-image">
               <p class="projects__number">3</p>
             </div>
             <h4 class="projects__project-title transparency">
-              <a href="https://mccambley.github.io/form-styling/index.html" target="_blank" class="projects__title-link">Comment Form</a>
+              <a href="https://mccambley.github.io/form-styling/index.html" rel="noopener" target="_blank" class="projects__title-link">Comment Form</a>
             </h4>
             <p class="projects__project-description">Forms are an exercise in functional design. This project was a test to create a custom form with a unified design structure with elements that guide rather than distract the user. Both custom radio buttons and active placeholders add life to the form elements enhancing the user experience.</p>
             <p class="projects__project-tech">CSS | Form Design</p>
             <div class="projects__icon-box">
-              <a href="https://github.com/McCambley/form-styling" target="_blank" aria-label="View on Github">
+              <a href="https://github.com/McCambley/form-styling" rel="noopener" target="_blank" aria-label="View on Github">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                 </svg>
               </a>
-              <a href="https://mccambley.github.io/form-styling/index.html" target="_blank" aria-label="View project live">
+              <a href="https://mccambley.github.io/form-styling/index.html" rel="noopener" target="_blank" aria-label="View project live">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
@@ -182,18 +183,18 @@
               <p class="projects__number">4</p>
             </div>
             <h4 class="projects__project-title transparency">
-              <a href="https://mccambley.github.io/web_project_3/" target="_blank" class="projects__title-link">Portland to Portland</a>
+              <a href="https://mccambley.github.io/web_project_3/" rel="noopener" target="_blank" class="projects__title-link">Portland to Portland</a>
             </h4>
             <p class="projects__project-description">How can we make sure our page is accessible on any device? A foray into the world of responsive design, this project took a Figma design and implemented media queries to ensure that the page appeared and functioned seamlessly across all device sizes.</p>
             <p class="projects__project-tech">CSS | Figma </p>
             <div class="projects__icon-box">
-              <a href="https://github.com/McCambley/web_project_3" target="_blank" aria-label="View on Github">
+              <a href="https://github.com/McCambley/web_project_3" rel="noopener" target="_blank" aria-label="View on Github">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                 </svg>
               </a>
-              <a href="https://mccambley.github.io/web_project_3/" target="_blank" aria-label="View project live">
+              <a href="https://mccambley.github.io/web_project_3/" rel="noopener" target="_blank" aria-label="View project live">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
@@ -211,18 +212,18 @@
               <p class="projects__number">5</p>
             </div>
             <h4 class="projects__project-title transparency">
-              <a href="https://mccambley.github.io/sweater-weather/" target="_blank" class="projects__title-link">Sweater Weather</a>
+              <a href="https://mccambley.github.io/sweater-weather/" rel="noopener" target="_blank" class="projects__title-link">Sweater Weather</a>
             </h4>
             <p class="projects__project-description">How can we create ugly sweaters when we’ve never picked up a spool of thread in our life? This project explores the capabilities of CSS by combining clip paths and stacked grid layouts to create an animated sweater that appears differently according to the window size.</p>
             <p class="projects__project-tech">CSS | Grid</p>
             <div class="projects__icon-box">
-              <a href="https://github.com/McCambley/sweater-weather" target="_blank" aria-label="View on Github">
+              <a href="https://github.com/McCambley/sweater-weather" rel="noopener" target="_blank" aria-label="View on Github">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                 </svg>
               </a>
-              <a href="https://mccambley.github.io/sweater-weather/" target="_blank" aria-label="View project live">
+              <a href="https://mccambley.github.io/sweater-weather/" rel="noopener" target="_blank" aria-label="View project live">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
@@ -245,7 +246,7 @@
             <p class="projects__project-description">The goal of this page is to display both my mission and work clearly and concisely in a way that catches the eye without sacrificing functionality. In the beginning of my development education, this website was an exploration in how to create a modern website using solely CSS.</p>
             <p class="projects__project-tech">CSS | More?</p>
             <div class="projects__icon-box">
-              <a href="https://github.com/McCambley/Jake-McCambley" target="_blank" aria-label="View on Github">
+              <a href="https://github.com/McCambley/Jake-McCambley" rel="noopener" target="_blank" aria-label="View on Github">
                 <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
@@ -270,7 +271,7 @@
       <div class="contact__content">
         <h2 class="contact__title">Get in touch!</h2>
         <h3 class="contact__subtitle">I'm always looking for new connections. Shoot me and email and let's chat!</h3>
-        <a href="mailto:jakemccamb16@gmail.com" class="contact__button" target="_blank">Say Hello</a>
+        <a href="mailto:jakemccamb16@gmail.com" class="contact__button" rel="noopener" target="_blank">Say Hello</a>
       </div>
     </section>
 
@@ -279,26 +280,26 @@
   <!-- footer -->
   <footer class="footer">
     <div class="footer__socials">
-      <a href="https://www.linkedin.com/in/jakemccambley/" class="footer__social-link" style="transform: scale(2); transform: translate(0, -2px);" target="_blank">
+      <a href="https://www.linkedin.com/in/jakemccambley/" class="footer__social-link" style="transform: scale(2); transform: translate(0, -2px);" rel="noopener" target="_blank" aria-label="Visit my Linkedin">
         <svg class="footer__social-icon transparency" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
       </a>
-      <a href="https://github.com/McCambley" style="transform: scale(.7); transform: translate(0, -2px);" class="footer__social-link" target="_blank">
+      <a href="https://github.com/McCambley" style="transform: scale(.7); transform: translate(0, -2px);" class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Github">
         <svg class="footer__social-icon transparency" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24"><path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"/></svg>
       </a>
-      <a href="https://twitter.com/JakeMcCambley" class="footer__social-link" target="_blank">
+      <a href="https://twitter.com/JakeMcCambley" class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Twitter">
         <svg class="footer__social-icon transparency" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24"><path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"/></svg>
       </a>
-      <a href="https://medium.com/@JakeMcCambley" class="footer__social-link" target="_blank">
+      <a href="https://medium.com/@JakeMcCambley" class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Medium">
         <svg class="footer__social-icon transparency" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4.37166667,7.23916667 C4.39666667,6.99333333 4.3025,6.75083333 4.11916667,6.58583333 L2.2525,4.33583333 L2.2525,4 L8.05083333,4 L12.5325,13.8291667 L16.4725,4 L22,4 L22,4.33583333 L20.4033333,5.86666667 C20.2658333,5.97166667 20.1975,6.14416667 20.2258333,6.315 L20.2258333,17.5633333 C20.1975,17.7333333 20.2658333,17.9058333 20.4033333,18.0108333 L21.9625,19.5416667 L21.9625,19.8775 L14.1191667,19.8775 L14.1191667,19.5416667 L15.735,17.9733333 C15.8933333,17.815 15.8933333,17.7683333 15.8933333,17.5258333 L15.8933333,8.43416667 L11.4025,19.8408333 L10.7958333,19.8408333 L5.56666667,8.43416667 L5.56666667,16.0791667 C5.52333333,16.4 5.63,16.7241667 5.85583333,16.9558333 L7.95666667,19.5041667 L7.95666667,19.8408333 L2,19.8408333 L2,19.5041667 L4.10083333,16.9558333 C4.32583333,16.7233333 4.42583333,16.3975 4.37166667,16.0791667 L4.37166667,7.23916667 L4.37166667,7.23916667 Z"/></svg>
       </a>
-      <a href="https://open.spotify.com/playlist/5uPXvGZ9RCP7u4MyORrspZ?si=-dsIm6PfSY2zbMNyAr-VVQ" class="footer__social-link" target="_blank">
+      <a href="https://open.spotify.com/playlist/5uPXvGZ9RCP7u4MyORrspZ?si=-dsIm6PfSY2zbMNyAr-VVQ" class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Spotify">
         <svg class="footer__social-icon transparency" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path fill="none" d="M0 0h24v24H0z"/><path fill-rule="nonzero" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.55 2 12 2zm3.75 14.65c-2.35-1.45-5.3-1.75-8.8-.95-.35.1-.65-.15-.75-.45-.1-.35.15-.65.45-.75 3.8-.85 7.1-.5 9.7 1.1.35.15.4.55.25.85-.2.3-.55.4-.85.2zm1-2.7c-2.7-1.65-6.8-2.15-9.95-1.15-.4.1-.85-.1-.95-.5-.1-.4.1-.85.5-.95 3.65-1.1 8.15-.55 11.25 1.35.3.15.45.65.2 1s-.7.5-1.05.25zM6.3 9.75c-.5.15-1-.15-1.15-.6-.15-.5.15-1 .6-1.15 3.55-1.05 9.4-.85 13.1 1.35.45.25.6.85.35 1.3-.25.35-.85.5-1.3.25C14.7 9 9.35 8.8 6.3 9.75z"/></g></svg>
       </a>
-      <a href="mailto:jake.mccambley@gmail.com" class="footer__social-link" target="_blank">
+      <a href="mailto:jake.mccambley@gmail.com" class="footer__social-link" rel="noopener" target="_blank" aria-label="Email me">
         <svg class="footer__social-icon transparency" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="email"><rect width="24" height="24" opacity="0"/><path d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-.67 2L12 10.75 5.67 6zM19 18H5a1 1 0 0 1-1-1V7.25l7.4 5.55a1 1 0 0 0 .6.2 1 1 0 0 0 .6-.2L20 7.25V17a1 1 0 0 1-1 1z"/></g></g></svg>
       </a>
     </div>
-    <a href="https://github.com/McCambley/Jake-McCambley" target="_blank" class="footer__author-link transparency">
+    <a href="https://github.com/McCambley/Jake-McCambley" rel="noopener" target="_blank" class="footer__author-link transparency">
       <p class="footer__author">Designed and Built by Jake McCambley</p>
       <p class="footer__copyright">&copy; 2021</p>
     </a>
