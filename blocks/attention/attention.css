@@ -1,0 +1,11 @@
+.attention {
+  font-weight: 900;
+  text-decoration: none;
+  color: inherit;
+  opacity: 1;
+  transition: opacity .2s ease-in-out;
+}
+
+.attention:hover {
+  opacity: .7;
+}
