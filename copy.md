@@ -7,7 +7,13 @@ About
 
 * I am a full stack developer with experience building websites and web applications.
 
-* I've always been driven to occupy the space where problem solving and creativity collide. In a previous lives working in wilderness therapy, hiking across the country, and working in the Huts of New Hampshire I faced all sorts of unique problems. How do you teach a kid in therapy for drug abuse how to create a fire using only sticks? How do you create a home for yourself in a new place when all you are the items you possess in a backpack? How do bake bread on top of a mountain? How do you create beautiful music with acoustic noises when you're in the middle of the woods and all you have is a digital instrument? These are questions that thrill me, and questions that lead me to answers that brought connection, fulfillment, and joy.  Solving the unsolvable using unique solutions is what gets me out of bed in the morning.
+* I've spent the past six years working around the United States in a variety of Industries. From wilderness therapy to mountain hospitality I've worn many hats. I've always been drawn to roles that connect humans to themselves and others.
+
+* These days my time is spent learning how to build and deploy beautiful websites. I've always been interested in the convergence of creativity and problem solving. I'm learning how to best occupy that space. I design and build websites that look good and solve problems.
+
+* When I'm not coding you can find me making music, hiking, and petting all the good dogs.
+
+* I've always been driven to occupy the space where problem solving and creativity collide. In a previous lives working in wilderness therapy, hiking across the country, and working in the Huts of New Hampshire I faced all sorts of unique problems. How could I teach a young adult with a history of drug abuse how to create a fire using only sticks? How could I create a home for myself using only items that fit in your backpack? How do bake bread on top of a mountain? How do you create beautiful music with acoustic noises when you're in the middle of the woods and all you have is a digital instrument? These are questions that thrill me, and questions that lead me to answers that brought connection, fulfillment, and joy.  Solving the unsolvable using unique solutions is what gets me out of bed in the morning.
 
 * When I write code I’m after the same feelings. I want to tackle problems with solutions that require a deviation from the status quo. As a developer, the tools I use are different, but the outcomes are the same. I write code that solves unique problems using creative solutions.
 
