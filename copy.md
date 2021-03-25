@@ -19,9 +19,9 @@ About
 
 ### Projects
 Sweater Weather
-*  How can we create ugly sweaters when we’ve never picked up a spool of thread in our life? This project explores the capabilities of CSS by combining clip paths and stacked grid layouts to create an animated sweater that appears differently according to the window size.
+*  I'm not too good with needle and thread, but I do love a cozy sweater. This project explores the capabilities of CSS by combining clip paths and stacked grid layouts to create an animated sweater that appears differently according to the window size.
 Portland to Portland
-How can we make sure our page is accessible on any device? A foray into the world of responsive design, this project took a Figma design and implemented media queries to ensure that the page appeared and functioned seamlessly across all device sizes.
+* How can we make sure our page is accessible on any device? A foray into the world of responsiveness, this project fulfilled a Figma design and implemented media queries to ensure that the page appeared and functioned seamlessly across all device sizes.
 Learning how to Learn
 *  This project is an exercise in how to communicate information more effectively using design layouts. This pixel perfect page was my first exercise in transforming an idea to an interactive website.
 Mondrian Grid
@@ -29,7 +29,7 @@ Mondrian Grid
 Personal Website
 * The goal of this page is to display both my mission and work clearly and concisely in a way that catches the eye without sacrificing functionality. In the beginning of my development education, this website was an exploration in how to create a modern website using solely CSS.
 Styled Form
-* Forms are an exercise in functional design. This project was a test to create a custom form with a unified design structure with elements that guide rather than distract the user.
+* This project was an exercise in functional design. This project was a test to create a custom form with a unified design structure with elements that guide rather than distract the user.
 Baby steps
 *
 ### Future Projects
