@@ -40,7 +40,7 @@
 
 .experience__other-positions {
   display: grid;
-  grid-template-columns: repeat(2, minmax(456px, 1fr));
+  grid-template-columns: repeat(2, minmax(448px, 1fr));
   gap: 12px;
   width: 100%;
   max-width: 980px;
