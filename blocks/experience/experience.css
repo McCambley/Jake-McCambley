@@ -40,13 +40,19 @@
 
 .experience__other-positions {
   display: grid;
-  grid-template-columns: repeat(4, minmax(232px, 1fr));
+  grid-template-columns: repeat(2, minmax(456px, 1fr));
   gap: 12px;
   width: 100%;
   max-width: 980px;
   overflow-x: auto;
   margin-bottom: 16px;
   border-radius: 16px;
+}
+
+.experience__other-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
 }
 
 .experience__other-box {
@@ -102,11 +108,18 @@
 @media (max-width: 1023px) {
   .experience__other-positions {
     box-shadow: inset 0 0px 12px #28262B;
+    grid-template-columns: repeat(1, minmax(464px, 1fr));
   }
 
   .experience__other-box {
     background-color: #3A3C41;
     opacity: .8;
     /* opacity: 1; */
+  }
+}
+
+@media (max-width: 675px) {
+  .experience__other-positions {
+    grid-template-columns: repeat(2, minmax(464px, 1fr));
   }
 }
