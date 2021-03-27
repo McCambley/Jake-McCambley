@@ -5,6 +5,7 @@
   gap: 36px;
   width: 100%;
   max-width: 800px;
+  margin-bottom: 24px;
 }
 
 @media (max-width: 1023px) {
