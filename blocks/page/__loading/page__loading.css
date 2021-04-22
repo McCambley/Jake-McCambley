@@ -22,7 +22,7 @@
 }
 
 .page__loading {
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,38 +30,31 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: #2A2C2F;
+  background-color: #2a2c2f;
   z-index: 3;
   /* animation: overlay 1s ease-in 2s 1 forwards; */
   animation: overlay 1.5s ease-in 1s forwards;
 }
 
 @media (max-width: 1279px) {
-
 }
 
 @media (max-width: 1023px) {
-
 }
 
 @media (max-width: 675px) {
-
 }
 
 /* Debugging breakpoints */
 
 @media (min-width: 1280px) {
-
 }
 
 @media (min-width: 1024px) {
-
 }
 
 @media (min-width: 760px) {
-
 }
 
 @media (min-width: 375px) {
-
 }
