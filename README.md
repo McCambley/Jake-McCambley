@@ -4,3 +4,9 @@
 <h1 align="center">My Personal Website </h1>
 <h2 align="center">The first iteration of <a href="http://www.jakemccambley.com">jakemccambley.com</a>. Built and designed by your truly  ❤️</h2>
 
+## Future Plans
+
+- Predominant colors as CSS variables
+- Remove SVGs as inline and set as image elements
+- Update portfolio
+- Fix hover UX
