@@ -1,11 +1,12 @@
 .intro__scroll-icon {
   display: none;
   opacity: 0;
+  width: 100%;
   animation: bounce 1.5s infinite forwards;
 }
 
 @media (max-width: 460px) {
-.intro__scroll-icon {
+  .intro__scroll-icon {
     display: initial;
   }
 }

@@ -17,16 +17,13 @@
 
 <body class="page">
 
-  <!-- Loading screen -->
   <div class="page__loading">
     <div class="page__loading-logo"></div>
   </div>
 
-  <!-- header -->
   <header class="header">
     <a href="./" class="logo grow">
       <img src="./images/logo-new-nobrdr.svg" alt="Jake McCambley" class="logo__image grow">
-      <!-- <img src="./images/logo.png" alt="Logo" class="logo__image grow"> -->
     </a>
     <nav class="header__nav-links">
       <a class="header__nav-link transparency" href="#">Home</a>
@@ -39,10 +36,8 @@
     </nav>
   </header>
 
-  <!-- main content -->
   <main class="main">
 
-    <!-- Introduction -->
     <section class="intro" id="home">
       <div class="intro__content">
         <img src="./images/Resume1SQ.jpg" alt="Jake McCambley in his most professional vest" class="intro__headshot">
@@ -56,24 +51,11 @@
           </nav>
         </div>
         <a href="#about" class="intro__scroll-button" aria-label="Scroll to about section">
-          <svg xmlns="http://www.w3.org/2000/svg" class="intro__scroll-icon icon icon-tabler icon-tabler-arrow-down"
-            width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <line x1="12" y1="5" x2="12" y2="19" />
-            <line x1="18" y1="13" x2="12" y2="19" />
-            <line x1="6" y1="13" x2="12" y2="19" />
-          </svg>
+          <img src="./images/page-icons/scroll.svg" alt="Scroll arrow" class="intro__scroll-icon">
         </a>
-        <!-- <svg class="intro__scroll-icon" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-down" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <polyline points="7 7 12 12 17 7" />
-          <polyline points="7 13 12 18 17 13" />
-        </svg> -->
       </div>
     </section>
 
-    <!-- About me -->
     <section class="about" id="about">
       <div class="about__content">
         <img src="./images/headshot-smile.png" alt="Jake McCambley smilin'" class="about__headshot">
@@ -96,17 +78,14 @@
       </div>
     </section>
 
-    <!-- Projects section -->
     <section class="projects" id="projects">
       <h2 class="projects__title">Projects</h2>
       <h3 class="projects__subtitle">My recent work is a combination of client collaborations and intentional practice
         geared towards learning through fun. Hit the github icon to see how each project was built or click through to
         view the project live.</h3>
 
-      <!-- Project card box -->
       <ul class="projects__projects">
 
-        <!-- Project card -->
         <li class="projects__card">
           <div class="projects__card-image-wrapper">
             <img src="./images/lead-mountains.jpg" alt="Portland to Portland" class="projects__card-image">
@@ -123,31 +102,15 @@
           <div class="projects__icon-box">
             <a href="https://github.com/McCambley/web_project_3" rel="noopener" target="_blank"
               aria-label="View on Github">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-brand-github" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg>
+              <img src="./images/page-icons/github.svg" alt="Open repository" class="projects__icon transparency">
             </a>
             <a href="https://mccambley.github.io/web_project_3/" rel="noopener" target="_blank"
               aria-label="View project live">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-external-link" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg>
+              <img src="./images/page-icons/open.svg" alt="Open project" class="projects__icon transparency">
             </a>
           </div>
         </li>
 
-        <!-- Project card -->
         <li class="projects__card">
           <div class="projects__card-image-wrapper">
             <img src="./images/mandrian.png" alt="Mondrian art" class="projects__card-image">
@@ -163,31 +126,15 @@
           <p class="projects__project-tech">CSS | Grid</p>
           <div class="projects__icon-box">
             <a href="https://github.com/McCambley/piet-mondrian-grid" target="blank" aria-label="View on Github">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-brand-github" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg>
+              <img src="./images/page-icons/github.svg" alt="Open repository" class="projects__icon transparency">
             </a>
             <a href="https://mccambley.github.io/piet-mondrian-grid/index.html" rel="noopener" target="_blank"
               aria-label="View project live">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-external-link" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg>
+              <img src="./images/page-icons/open.svg" alt="Open project" class="projects__icon transparency">
             </a>
           </div>
         </li>
 
-        <!-- Project card -->
         <li class="projects__card">
           <div class="projects__card-image-wrapper">
             <img src="./images/headshot-smile.png" alt="Me!" class="projects__card-image">
@@ -204,30 +151,14 @@
           <div class="projects__icon-box">
             <a href="https://github.com/McCambley/Jake-McCambley" rel="noopener" target="_blank"
               aria-label="View on Github">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-brand-github" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg>
+              <img src="./images/page-icons/github.svg" alt="Open repository" class="projects__icon transparency">
             </a>
             <a href="#home" aria-label="View project live">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-external-link" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg>
+              <img src="./images/page-icons/open.svg" alt="Open project" class="projects__icon transparency">
             </a>
           </div>
         </li>
 
-        <!-- Project card -->
         <li class="projects__card">
           <div class="projects__card-image-wrapper">
             <img src="./images/feynman.png" alt="Richard Feynman" class="projects__card-image">
@@ -244,31 +175,15 @@
           <div class="projects__icon-box">
             <a href="https://github.com/McCambley/web_project_1" rel="noopener" target="_blank"
               aria-label="View on Github">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-brand-github" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg>
+              <img src="./images/page-icons/github.svg" alt="Open repository" class="projects__icon transparency">
             </a>
             <a href="https://mccambley.github.io/web_project_1/" rel="noopener" target="_blank"
               aria-label="View project live">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-external-link" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg>
+              <img src="./images/page-icons/open.svg" alt="Open project" class="projects__icon transparency">
             </a>
           </div>
         </li>
 
-        <!-- Project card -->
         <li class="projects__card">
           <div class="projects__card-image-wrapper">
             <img src="./images/form.png" alt="Custom form" class="projects__card-image">
@@ -285,31 +200,15 @@
           <div class="projects__icon-box">
             <a href="https://github.com/McCambley/form-styling" rel="noopener" target="_blank"
               aria-label="View on Github">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-brand-github" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg>
+              <img src="./images/page-icons/github.svg" alt="Open repository" class="projects__icon transparency">
             </a>
             <a href="https://mccambley.github.io/form-styling/index.html" rel="noopener" target="_blank"
               aria-label="View project live">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-external-link" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg>
+              <img src="./images/page-icons/open.svg" alt="Open project" class="projects__icon transparency">
             </a>
           </div>
         </li>
 
-        <!-- Project card -->
         <li class="projects__card">
           <div class="projects__card-image-wrapper">
             <img src="./images/sweater.png" alt="Sweater" class="projects__card-image">
@@ -326,26 +225,11 @@
           <div class="projects__icon-box">
             <a href="https://github.com/McCambley/sweater-weather" rel="noopener" target="_blank"
               aria-label="View on Github">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-brand-github" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg>
+              <img src="./images/page-icons/github.svg" alt="Open repository" class="projects__icon transparency">
             </a>
             <a href="https://mccambley.github.io/sweater-weather/" rel="noopener" target="_blank"
               aria-label="View project live">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="projects__icon transparency icon icon-tabler icon-tabler-external-link" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#D4D8D8" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg>
+              <img src="./images/page-icons/open.svg" alt="Open project" class="projects__icon transparency">
             </a>
           </div>
         </li>
@@ -355,7 +239,6 @@
     </section>
 
 
-    <!-- Contact -->
     <section class="contact" id="contact">
       <div class="contact__content">
         <h2 class="contact__title">Get in touch!</h2>
@@ -366,33 +249,32 @@
 
   </main>
 
-  <!-- footer -->
   <footer class="footer">
     <div class="footer__socials">
       <a href="https://www.linkedin.com/in/jakemccambley/" class="footer__social-link" rel="noopener" target="_blank"
         aria-label="Visit my Linkedin">
-        <img src="./images/social-icons/linkedin.svg" alt="LinkedIn" class="footer__social-icon transparency">
+        <img src="./images/footer-icons/linkedin.svg" alt="LinkedIn" class="footer__social-icon transparency">
       </a>
       <a href="https://github.com/McCambley" class="footer__social-link" rel="noopener" target="_blank"
         aria-label="Visit my Github">
-        <img src="./images/social-icons/github.svg" alt="Github" class="footer__social-icon transparency">
+        <img src="./images/footer-icons/github.svg" alt="Github" class="footer__social-icon transparency">
       </a>
       <a href="https://twitter.com/JakeMcCambley" class="footer__social-link" rel="noopener" target="_blank"
         aria-label="Visit my Twitter">
-        <img src="./images/social-icons/twitter.svg" alt="Twitter" class="footer__social-icon transparency">
+        <img src="./images/footer-icons/twitter.svg" alt="Twitter" class="footer__social-icon transparency">
       </a>
       <a href="https://medium.com/@JakeMcCambley" class="footer__social-link" rel="noopener" target="_blank"
         aria-label="Visit my Medium">
-        <img src="./images/social-icons/medium.svg" alt="Medium" class="footer__social-icon transparency">
+        <img src="./images/footer-icons/medium.svg" alt="Medium" class="footer__social-icon transparency">
 
       </a>
       <a href="https://open.spotify.com/playlist/5uPXvGZ9RCP7u4MyORrspZ?si=-dsIm6PfSY2zbMNyAr-VVQ"
         class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Spotify">
-        <img src="./images/social-icons/spotify.svg" alt="Spotify" class="footer__social-icon transparency">
+        <img src="./images/footer-icons/spotify.svg" alt="Spotify" class="footer__social-icon transparency">
       </a>
       <a href="mailto:jake.mccambley@gmail.com" class="footer__social-link" rel="noopener" target="_blank"
         aria-label="Email me">
-        <img src="./images/social-icons/email.svg" alt="Email" class="footer__social-icon transparency">
+        <img src="./images/footer-icons/email.svg" alt="Email" class="footer__social-icon transparency">
       </a>
     </div>
     <a href="https://github.com/McCambley/Jake-McCambley" rel="noopener" target="_blank"
