@@ -20,17 +20,25 @@
 @import url(../blocks/attention/attention.css);
 
 /* Color variables  */
+
 :root {
   --text: #f4f5f5;
-  /*  Could just append "e6" and use the --primary-bg variable */
   --header: #2a2c2fe6;
   --primary-bg: #2a2c2f;
   --secondary-bg: #3a3c41;
   --tertiary-bg: #26282b;
+  --quaternary-bg: #43474c;
   --footer: #1d1e20;
   --box-shadow: #28262b;
-  --red: red;
 }
+
+/* Now that the page theme is set with CSS variables, redesign will be far easier
+in the future if colors need to be changes. Furthermore, now I'll be able to set
+colors using Javascript, targeting only the root styles, rather than targeting
+countless individual items. IF A DARK MODE IS TO BE SET WITH JAVASCRIPT SVGs will
+need to be placed inline, or duplicated with alternate fill values, which would
+require that the sources for each img will be changed at the same time... not
+so bad.  */
 
 /* * {
   border: 1px solid antiquewhite;

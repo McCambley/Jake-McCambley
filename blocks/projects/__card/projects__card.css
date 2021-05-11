@@ -7,8 +7,8 @@
   border-radius: 20px;
   transform: translateY(0);
   box-shadow: none;
-  opacity: .8;
-  transition: all .2s ease-in-out;
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
   position: relative;
   /* min-height: 100%; */
   box-sizing: border-box;
@@ -19,15 +19,15 @@
 .projects__card:hover {
   opacity: 1;
   transform: translateY(-10px);
-  box-shadow: 0 0px 12px #28262B;
-  background-color: #3A3C41;
+  box-shadow: 0 0px 12px var(--box-shadow);
+  background-color: var(--secondary-bg);
 }
 
 @media (max-width: 1023px) {
   .projects__card {
-    box-shadow: 0 0px 4px #28262B;
+    box-shadow: 0 0px 4px var(--box-shadow);
     opacity: 1;
-    background-color: #3A3C41;
+    background-color: var(--secondary-bg);
   }
 }
 
@@ -41,7 +41,7 @@
 
   .projects__card:hover {
     transform: none;
-    box-shadow: 0 0px 4px #28262B;
+    box-shadow: 0 0px 4px var(--box-shadow);
   }
 }
 

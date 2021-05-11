@@ -5,9 +5,8 @@
 
 .contact {
   padding: 124px 0;
-  background-color: #26282B;
+  background-color: var(--tertiary-bg);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-

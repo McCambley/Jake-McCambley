@@ -1,14 +1,14 @@
 .intro__scroll-button {
   display: none;
   border-radius: 50px;
-  border: 2px solid #F4F5F5;
+  border: 2px solid var(--text);
   width: 32px;
   height: 32px;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   transform: scale(0);
-  animation: popup .5s ease 1s forwards;
+  animation: popup 0.5s ease 1s forwards;
 }
 
 @media (max-width: 460px) {

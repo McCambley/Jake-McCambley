@@ -30,7 +30,7 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: #2a2c2f;
+  background-color: var(--primary-bg);
   z-index: 3;
   /* animation: overlay 1s ease-in 2s 1 forwards; */
   animation: overlay 1.5s ease-in 1s forwards;

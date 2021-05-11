@@ -11,7 +11,7 @@
   max-height: 1200px;
   min-height: 700px;
   width: 100%;
-  background-color: #3a3c41;
+  background-color: var(--secondary-bg);
   width: 100%;
   padding: 48px;
   box-sizing: border-box;

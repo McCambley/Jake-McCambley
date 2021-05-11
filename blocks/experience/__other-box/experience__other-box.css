@@ -4,20 +4,20 @@
   box-sizing: border-box;
   border-radius: 16px;
   box-shadow: none;
-  transition: all .2s ease-in-out;
-  opacity: .6;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.6;
 }
 
 .experience__other-box:hover {
-  box-shadow: 0 0px 12px #28262B;
-  background-color: #3A3C41;
-  opacity: .8;
+  box-shadow: 0 0px 12px var(--box-shadow);
+  background-color: var(--secondary-bg);
+  opacity: 0.8;
 }
 
 @media (max-width: 1023px) {
   .experience__other-box {
-    background-color: #3A3C41;
-    opacity: .8;
+    background-color: var(--secondary-bg);
+    opacity: 0.8;
     /* opacity: 1; */
   }
 }

@@ -29,7 +29,7 @@
   align-items: center;
   padding: 96px 48px 48px;
   box-sizing: border-box;
-  background-color: #2A2C2F;
+  background-color: var(--primary-bg);
   position: relative;
 }
 

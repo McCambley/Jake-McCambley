@@ -1,13 +1,13 @@
 .intro__headshot {
   border-radius: 50%;
   width: 30%;
-  opacity: .8;
+  opacity: 0.8;
   min-width: 220px;
   /* position: absolute;
   top: 15%;
   left: 15%; */
-  filter: drop-shadow(0 0 3px #28262B);
-  transition: opacity .5s ease-in-out;
+  filter: drop-shadow(0 0 3px var(--box-shadow));
+  transition: opacity 0.5s ease-in-out;
   margin-right: 32px;
 }
 
@@ -16,10 +16,7 @@
 }
 
 @media (max-width: 1279px) {
-
 }
-
-
 
 @media (max-width: 1023px) {
   .intro__headshot {
@@ -28,8 +25,5 @@
   }
 }
 
-
-
 @media (max-width: 675px) {
-
 }

@@ -8,7 +8,7 @@
   width: 112px;
   height: 32px;
   border-radius: 50px;
-  border: 2px solid #F4F5F5;
+  border: 2px solid var(--text);
   transform: scale(1);
   transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
   text-decoration: none;
@@ -20,11 +20,11 @@
 }
 
 .intro__link:hover {
-  background-color: #3A3C41;
+  background-color: var(--secondary-bg);
 }
 
 .intro__link:active {
-  transform: scale(.95);
+  transform: scale(0.95);
 }
 
 /*
@@ -49,6 +49,4 @@ button-pop animation
     height: 28px;
     font-size: 14px;
   }
-
-
 }

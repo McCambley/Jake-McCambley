@@ -11,7 +11,7 @@
 
 @media (max-width: 1023px) {
   .experience__other-positions {
-    box-shadow: inset 0 0px 12px #28262B;
+    box-shadow: inset 0 0px 12px var(--box-shadow);
     grid-template-columns: repeat(1, minmax(464px, 1fr));
     max-width: 800px;
   }
