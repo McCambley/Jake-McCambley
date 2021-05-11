@@ -19,11 +19,24 @@
 @import url(../blocks/experience/experience.css);
 @import url(../blocks/attention/attention.css);
 
+/* Color variables  */
+:root {
+  --text: #f4f5f5;
+  /*  Could just append "e6" and use the --primary-bg variable */
+  --header: #2a2c2fe6;
+  --primary-bg: #2a2c2f;
+  --secondary-bg: #3a3c41;
+  --tertiary-bg: #26282b;
+  --footer: #1d1e20;
+  --box-shadow: #28262b;
+  --red: red;
+}
+
 /* * {
   border: 1px solid antiquewhite;
 } */
 
-@media (max-width: 1279px) {
+/* @media (max-width: 1279px) {
 
 }
 
@@ -37,11 +50,11 @@
 
 @media (max-width: 675px) {
 
-}
+} */
 
 /* Debugging breakpoints */
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
 
 }
 
@@ -55,8 +68,7 @@
 
 @media (min-width: 375px) {
 
-}
-
+} */
 
 /* Costa Del Sol
 #646033
