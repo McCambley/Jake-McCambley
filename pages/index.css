@@ -19,18 +19,11 @@
 @import url(../blocks/experience/experience.css);
 @import url(../blocks/attention/attention.css);
 
-/* Color variables  */
+/* modifiers */
+@import url(../blocks/page/_theme/page_theme_dark.css);
+@import url(../blocks/page/_theme/page_theme_light.css);
 
-:root {
-  --text: #f4f5f5;
-  --header: #2a2c2fe6;
-  --primary-bg: #2a2c2f;
-  --secondary-bg: #3a3c41;
-  --tertiary-bg: #26282b;
-  --quaternary-bg: #43474c;
-  --footer: #1d1e20;
-  --box-shadow: #28262b;
-}
+/* Color variables  */
 
 /* Now that the page theme is set with CSS variables, redesign will be far easier
 in the future if colors need to be changes. Furthermore, now I'll be able to set

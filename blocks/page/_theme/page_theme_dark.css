@@ -1,0 +1,10 @@
+.page_theme_dark {
+  --text: #f4f5f5;
+  --header: #2a2c2fe6;
+  --primary-bg: #2a2c2f;
+  --secondary-bg: #3a3c41;
+  --tertiary-bg: #26282b;
+  --quaternary-bg: #43474c;
+  --footer: #1d1e20;
+  --box-shadow: #28262b;
+}

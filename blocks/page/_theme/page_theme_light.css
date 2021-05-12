@@ -1,0 +1,10 @@
+.page_theme_light {
+  --text: #404652;
+  --header: #fefffee6;
+  --primary-bg: #fefffe;
+  --secondary-bg: #e1e4e9;
+  --tertiary-bg: #c9ced8;
+  --quaternary-bg: #acb4c3;
+  --footer: #404652;
+  --box-shadow: #404652;
+}
