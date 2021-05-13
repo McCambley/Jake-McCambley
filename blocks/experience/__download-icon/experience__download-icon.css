@@ -1,6 +1,7 @@
 .experience__download-icon {
   width: 20px;
   display: none;
+  stroke: var(--icons);
 }
 
 @media (max-width: 675px) {
