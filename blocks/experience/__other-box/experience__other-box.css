@@ -9,7 +9,7 @@
 }
 
 .experience__other-box:hover {
-  box-shadow: 0 0px 12px var(--box-shadow);
+  /* box-shadow: 0 0px 12px var(--box-shadow); */
   background-color: var(--secondary-bg);
   opacity: 0.8;
 }
