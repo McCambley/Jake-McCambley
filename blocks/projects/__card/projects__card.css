@@ -29,6 +29,12 @@
     opacity: 1;
     background-color: var(--secondary-bg);
   }
+  .projects__card:nth-child(5) {
+    display: none;
+  }
+  .projects__card:nth-child(6) {
+    display: none;
+  }
 }
 
 @media (max-width: 675px) {
@@ -42,6 +48,12 @@
   .projects__card:hover {
     transform: none;
     box-shadow: 0 0px 4px var(--box-shadow);
+  }
+}
+
+@media (max-width: 460px) {
+  .projects__card:nth-child(5) {
+    display: flex;
   }
 }
 
