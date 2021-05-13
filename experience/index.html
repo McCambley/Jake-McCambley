@@ -29,15 +29,23 @@
       <img src="./../images/logo-new-nobrdr.svg" alt="Jake McCambley" class="logo__image grow">
       <!-- <img src="./../images/logo.png" alt="Logo" class="logo__image grow"> -->
     </a>
-    <nav class="header__nav-links">
-      <a class="header__nav-link transparency" href="../">Home</a>
-      <a class="header__nav-link transparency" href="../#about">About</a>
-      <a class="header__nav-link transparency" href="https://medium.com/@JakeMcCambley" rel="noopener"
-        target="_blank">Blog</a>
-      <a class="header__nav-link transparency" href="../#projects">Projects</a>
-      <a class="header__nav-link transparency" href="#">Experience</a>
-      <a class="header__nav-link transparency" href="#contact">Contact</a>
-    </nav>
+    <div class="header__container">
+      <nav class="header__nav-links">
+        <a class="header__nav-link transparency" href="../">Home</a>
+        <a class="header__nav-link transparency" href="../#about">About</a>
+        <a class="header__nav-link transparency" href="https://medium.com/@JakeMcCambley" rel="noopener"
+          target="_blank">Blog</a>
+        <a class="header__nav-link transparency" href="../#projects">Projects</a>
+        <a class="header__nav-link transparency" href="#">Experience</a>
+        <a class="header__nav-link transparency" href="#contact">Contact</a>
+      </nav>
+      <div class="header__toggle transparency">
+        <input type="checkbox" id="theme" class="header__toggle-input" checked>
+        <label for="theme" class="header__toggle-label">
+          <img src="/images/page-icons/sun.svg" alt="Dark mode" class="header__toggle-icon">
+        </label>
+      </div>
+    </div>
   </header>
 
   <!-- Main body -->
@@ -190,7 +198,7 @@
       <a href="./../files/JakeMcCambleyResume-January2020.pdf" class="experience__download" rel="noopener"
         target="_blank">
         <p class="experience__download-text">Download</p>
-        <img src="../images/page-icons/download.svg" alt="Download" class="experience__download-icon">
+        <img src="/images/page-icons/download.svg" alt="Download" class="experience__download-icon">
       </a>
     </section>
 

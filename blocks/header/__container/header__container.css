@@ -1,0 +1,12 @@
+.header__container {
+  display: flex;
+}
+
+@media (max-width: 675px) {
+  .header__container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 48px;
+  }
+}
