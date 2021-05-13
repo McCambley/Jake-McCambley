@@ -1,8 +1,9 @@
 .projects__card-image {
   height: 100%;
   align-self: flex-start;
+  text-align: center;
   filter: grayscale(50%) blur(1px);
-  transition: filter .2s ease-in-out;
+  transition: filter 0.2s ease-in-out;
 }
 
 .projects__card:hover .projects__card-image {
