@@ -12,6 +12,10 @@
   font-weight: 700;
 }
 
+.contact__button:first-child {
+  margin-right: 20px;
+}
+
 .contact__button:hover {
   cursor: pointer;
   background-color: var(--secondary-bg);
@@ -21,5 +25,12 @@
   .contact__button {
     width: 160px;
     height: 40px;
+  }
+}
+
+@media (max-width: 460px) {
+  .contact__button:first-child {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 }

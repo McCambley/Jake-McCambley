@@ -1,0 +1,10 @@
+.contact__button-wrapper {
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+@media (max-width: 460px) {
+  .contact__button-wrapper {
+    flex-direction: column;
+  }
+}
