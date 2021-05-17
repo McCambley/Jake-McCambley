@@ -4,15 +4,28 @@ const overlayLogo = page.querySelector(".page__loading-logo");
 const toggle = page.querySelector(".header__toggle-input");
 const toggleIcon = page.querySelector(".header__toggle-icon");
 
-function toggleTheme() {
-  page.classList.toggle("page_theme_dark");
-  page.classList.toggle("page_theme_light");
-  toggleIconTheme();
+setCheckedState();
 
-  //change logo source
-  //change overlay source
+// Set state of checkbox then toggle theme accordingly
+function setCheckedState() {
+  if (!(localStorage.checked === undefined)) {
+    toggle.checked = isTrue(localStorage.getItem("checked"));
+    toggleTheme();
+  }
 }
 
+// Toggle theme based on state of checkbox
+function toggleTheme() {
+  if (toggle.checked) {
+    page.classList.replace("page_theme_light", "page_theme_dark");
+  } else {
+    page.classList.replace("page_theme_dark", "page_theme_light");
+  }
+  toggleIconTheme();
+  localStorage.setItem("checked", toggle.checked);
+}
+
+// Replace icons not able to be targeted by css variables
 function toggleIconTheme() {
   if (page.classList.contains("page_theme_light")) {
     headerLogo.src = "/images/logo-new-nobrdr-dark.svg";
@@ -25,6 +38,10 @@ function toggleIconTheme() {
   }
 }
 
-// page.addEventListener("click", toggleTheme);
-// headshot.addEventListener("click", toggleTheme);
+// convert string to boolean
+function isTrue(value) {
+  return value === "true";
+}
+
+// Event listeners
 toggle.addEventListener("change", toggleTheme);
