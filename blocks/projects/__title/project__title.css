@@ -8,6 +8,7 @@
 
 @media (max-width: 460px) {
   .projects__title {
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
 }

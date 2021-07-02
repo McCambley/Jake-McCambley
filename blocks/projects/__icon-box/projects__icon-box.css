@@ -1,34 +1,54 @@
 .projects__icon-box {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 84px;
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   position: absolute;
   bottom: 8px;
   /* transiting properties */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  transform: scale(0);
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
   opacity: 0;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .projects__card:hover .projects__icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
   opacity: 1;
 }
 
 @media (max-width: 1023px) {
   .projects__icon-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
     opacity: 1;
   }
 }
 
 @media (max-width: 675px) {
   .projects__icon-box {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 72px;
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
 }

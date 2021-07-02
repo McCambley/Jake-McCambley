@@ -1,3 +1,22 @@
+@-webkit-keyframes slide {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  25% {
+    width: 100%;
+    left: 0;
+  }
+  75% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
 @keyframes slide {
   0% {
     width: 0;
@@ -38,16 +57,10 @@
 } */
 
 @media (max-width: 1279px) {
-
 }
-
-
 
 @media (max-width: 1023px) {
-
 }
-
-
 
 @media (max-width: 675px) {
   .intro__subtitle {

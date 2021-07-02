@@ -4,15 +4,24 @@
   border: 2px solid var(--icons);
   width: 32px;
   height: 32px;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow: hidden;
-  transform: scale(0);
-  animation: popup 0.5s ease 1s forwards;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: popup 0.5s ease 1s forwards;
+          animation: popup 0.5s ease 1s forwards;
 }
 
 @media (max-width: 460px) {
   .intro__scroll-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }

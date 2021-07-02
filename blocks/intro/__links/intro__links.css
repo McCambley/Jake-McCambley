@@ -1,8 +1,13 @@
 .intro__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 75%;
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 @media (max-width: 675px) {

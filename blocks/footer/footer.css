@@ -9,13 +9,24 @@
   /* height: 108px; */
   width: 100%;
   background-color: var(--footer);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 24px 48px;
-  box-sizing: border-box;
-  box-shadow: 0 0 8px var(--box-shadow);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 0 8px var(--box-shadow);
+          box-shadow: 0 0 8px var(--box-shadow);
   color: var(--footer-text);
-  font-family: "RobotoSlab";
+  font-family: 'RobotoSlab';
 }

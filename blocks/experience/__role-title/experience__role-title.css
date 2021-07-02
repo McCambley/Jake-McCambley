@@ -3,7 +3,8 @@
   font-size: 60px;
   max-width: 100%;
   margin: 0;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   text-align: right;
 }
 

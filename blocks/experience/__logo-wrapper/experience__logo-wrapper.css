@@ -3,7 +3,8 @@
   height: 100%;
   padding: 24px;
   overflow: hidden;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* filter: drop-shadow(0 0 3px #28262B); */
 }
 

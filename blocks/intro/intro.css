@@ -1,60 +1,126 @@
-@import url("./__content/intro__content.css");
-@import url("./__headshot/intro__headshot.css");
-@import url("./__link/intro__link.css");
-@import url("./__links/intro__links.css");
-@import url("./__scroll-button/intro__scroll-button.css");
-@import url("./__scroll-icon/intro__scroll-icon.css");
-@import url("./__subtitle/intro__subtitle.css");
-@import url("./__text/intro__text.css");
-@import url("./__title/intro__title.css");
-
+@import url('./__content/intro__content.css');
+@import url('./__headshot/intro__headshot.css');
+@import url('./__link/intro__link.css');
+@import url('./__links/intro__links.css');
+@import url('./__scroll-button/intro__scroll-button.css');
+@import url('./__scroll-icon/intro__scroll-icon.css');
+@import url('./__subtitle/intro__subtitle.css');
+@import url('./__text/intro__text.css');
+@import url('./__title/intro__title.css');
 
 /* Animation frames for buttons? */
-@keyframes bounce {
+@-webkit-keyframes bounce {
   0% {
-    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
     opacity: 0;
-    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
   }
   45% {
-    transform: translateY(-10x);
+    -webkit-transform: translateY(-10x);
+            transform: translateY(-10x);
     opacity: 1;
-    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
   }
   55% {
-    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
     opacity: 1;
-    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
   }
   100% {
-    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+    opacity: 0;
+  }
+}
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+  }
+  45% {
+    -webkit-transform: translateY(-10x);
+            transform: translateY(-10x);
+    opacity: 1;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+  }
+  55% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+  }
+  100% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
     opacity: 0;
   }
 }
 
 /* Animation for text appear */
-@keyframes popup {
+@-webkit-keyframes popup {
   from {
-    transform: scale(0);
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
   to {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes popup {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 /* Animation for button appear on larger screens */
-@keyframes button-pop {
+@-webkit-keyframes button-pop {
   0% {
     opacity: 0;
-    transform: scale(.7);
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
   }
   25% {
-    opacity: .6;
-    transform: scale(1);
+    opacity: 0.6;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   100% {
     opacity: 1;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes button-pop {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  25% {
+    opacity: 0.6;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -63,12 +129,19 @@
   height: 100vh;
   min-height: 700px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   /* position: relative; */
 
   /* padding-top: 200px;
   padding-left: 450px; */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
