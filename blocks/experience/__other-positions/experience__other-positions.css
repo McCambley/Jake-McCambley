@@ -12,7 +12,7 @@
 @media (max-width: 1023px) {
   .experience__other-positions {
     -webkit-box-shadow: inset 0 0px 12px var(--box-shadow);
-            box-shadow: inset 0 0px 12px var(--box-shadow);
+    box-shadow: inset 0 0px 12px var(--box-shadow);
     grid-template-columns: repeat(1, minmax(464px, 1fr));
     max-width: 800px;
   }
@@ -21,5 +21,6 @@
 @media (max-width: 675px) {
   .experience__other-positions {
     grid-template-columns: repeat(2, minmax(464px, 1fr));
+    /* grid-template-columns: repeat(3, minmax(464px, 1fr)); */
   }
 }

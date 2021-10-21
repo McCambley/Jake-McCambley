@@ -1,351 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Hey there! I'm a full stack developer with experience building websites and web applications. Check out my recent work and past professional experience." />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/favicon-white/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-white/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-white/favicon-16x16.png" />
+    <link rel="manifest" href="./images/favicons/favicon-white/site.webmanifest" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Jake McCambley</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Description"
-    content="Hey there! I'm a full stack developer with experience building websites and web applications. Check out my recent work and past professional experience.">
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/favicon-white/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-white/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-white/favicon-16x16.png">
-  <link rel="manifest" href="./images/favicons/favicon-white/site.webmanifest">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Jake McCambley</title>
-</head>
-
-<body class="page page_theme_dark">
-
-  <div class="page__loading">
-    <div class="page__loading-logo"></div>
-  </div>
-
-  <header class="header">
-    <a href="./" class="logo grow">
-      <img src="./images/logo-new-nobrdr.svg" alt="Jake McCambley" class="logo__image grow">
-    </a>
-    <div class="header__container">
-      <nav class="header__nav-links">
-        <a class="header__nav-link transparency" href="#">Home</a>
-        <a class="header__nav-link transparency" href="#about">About</a>
-        <a class="header__nav-link transparency" href="https://medium.com/@JakeMcCambley" rel="noopener"
-          target="_blank">Blog</a>
-        <a class="header__nav-link transparency" href="#projects">Projects</a>
-        <a class="header__nav-link transparency" href="./experience/">Experience</a>
-        <a class="header__nav-link transparency" href="#contact">Contact</a>
-      </nav>
-      <div class="header__toggle transparency">
-        <input type="checkbox" id="theme" class="header__toggle-input" checked>
-        <label for="theme" class="header__toggle-label">
-          <img src="/images/page-icons/sun.svg" alt="Dark mode" class="header__toggle-icon">
-        </label>
-      </div>
+  <body class="page page_theme_dark">
+    <div class="page__loading">
+      <div class="page__loading-logo"></div>
     </div>
-  </header>
 
-  <main class="main">
-
-    <section class="intro" id="home">
-      <div class="intro__content">
-        <img src="./images/Resume1SQ.jpg" alt="Jake McCambley in his most professional vest" class="intro__headshot">
-        <div class="intro__text">
-          <h1 class="intro__title">Jake McCambley</h1>
-          <h2 class="intro__subtitle">Web Developer and Software Engineer</h2>
-          <nav class="intro__links">
-            <a href="#about" class="intro__link">About</a>
-            <a href="#projects" class="intro__link">Projects</a>
-            <a href="./experience/" class="intro__link">Experience</a>
-          </nav>
+    <header class="header">
+      <a href="./" class="logo grow">
+        <img src="./images/logo-new-nobrdr.svg" alt="Jake McCambley" class="logo__image grow" />
+      </a>
+      <div class="header__container">
+        <nav class="header__nav-links">
+          <a class="header__nav-link transparency" href="#">Home</a>
+          <a class="header__nav-link transparency" href="#about">About</a>
+          <a class="header__nav-link transparency" href="https://medium.com/@JakeMcCambley" rel="noopener" target="_blank">Blog</a>
+          <a class="header__nav-link transparency" href="#projects">Projects</a>
+          <a class="header__nav-link transparency" href="./experience/">Experience</a>
+          <a class="header__nav-link transparency" href="#contact">Contact</a>
+        </nav>
+        <div class="header__toggle transparency">
+          <input type="checkbox" id="theme" class="header__toggle-input" checked />
+          <label for="theme" class="header__toggle-label">
+            <img src="/images/page-icons/sun.svg" alt="Dark mode" class="header__toggle-icon" />
+          </label>
         </div>
-        <a href="#about" class="intro__scroll-button" aria-label="Scroll to about section">
-          <svg class="intro__scroll-icon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"
-            stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <line x1="12" y1="5" x2="12" y2="19" />
-            <line x1="18" y1="13" x2="12" y2="19" />
-            <line x1="6" y1="13" x2="12" y2="19" />
-          </svg>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="intro" id="home">
+        <div class="intro__content">
+          <img src="./images/Resume1SQ.jpg" alt="Jake McCambley in his most professional vest" class="intro__headshot" />
+          <div class="intro__text">
+            <h1 class="intro__title">Jake McCambley</h1>
+            <!-- <h2 class="intro__subtitle">Web Developer and Software Engineer</h2> -->
+            <h2 class="intro__subtitle">Full Stack Web Developer</h2>
+            <nav class="intro__links">
+              <a href="#about" class="intro__link">About</a>
+              <a href="#projects" class="intro__link">Projects</a>
+              <a href="./experience/" class="intro__link">Experience</a>
+            </nav>
+          </div>
+          <a href="#about" class="intro__scroll-button" aria-label="Scroll to about section">
+            <svg class="intro__scroll-icon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <line x1="18" y1="13" x2="12" y2="19" />
+              <line x1="6" y1="13" x2="12" y2="19" />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__content">
+          <img src="./images/headshot-smile.png" alt="Jake McCambley smilin'" class="about__headshot" />
+          <div class="about__text">
+            <h2 class="about__title">Hey there, I'm Jake.</h2>
+            <p class="about__subtitle">I am a full stack developer with experience building websites and web applications.</p>
+            <p class="about__paragraph">I've spent the past six years working around the United States in a variety of Industries. From wilderness therapy to mountain hospitality I've worn many hats. I've always been drawn to roles that connect humans to themselves and others.</p>
+            <p class="about__paragraph">These days my time is spent learning how to build and deploy beautiful websites. I've long been interested in the convergence of creativity and problem solving. I'm learning how to best occupy that space. I design and build websites that look good and solve problems.</p>
+            <p class="about__paragraph">
+              When I'm not coding, you can find me
+              <a href="https://open.spotify.com/artist/39tdBzLi2DFuNtFwECZwJX?si=-wkkqWpKQH-Lt7vfAs3WSA" rel="noopener" target="_blank" class="attention">making music</a>, out <a href="https://www.instagram.com/p/BYCG7rpDvF8/" rel="noopener" target="_blank" class="attention">hiking</a>, and petting all the good dogs.
+            </p>
+          </div>
+          <a href="./experience/index.html" class="about__experience-button">Experience</a>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="projects__title">Projects</h2>
+        <h3 class="projects__subtitle">My recent work is a combination of client collaborations and intentional practice geared towards learning through fun. Hit the github icon to see how each project was built or click through to view the project live.</h3>
+
+        <!-- Projects container -->
+        <ul class="projects__projects"></ul>
+
+        <!-- keep here? -->
+        <div class="experience__skills">HTML | CSS | Javascript | React.js | node.js | Express.js | Ruby | Nginx | Webpack | Rest | BEM | Git | Music Production | Sound Design | SCSS | SASS | Bootstrap | TailwindCSS</div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__content">
+          <h2 class="contact__title">Get in touch!</h2>
+          <h3 class="contact__subtitle">I'm always looking for new connections. Shoot me and email and let's chat!</h3>
+          <div class="contact__button-wrapper">
+            <a href="mailto:jakemccamb16@gmail.com" class="contact__button" rel="noopener" target="_blank">Email Me!</a>
+            <a href="https://calendly.com/jake-mccambley/informal-chat" class="contact__button" rel="noopener" target="_blank">Let's Chat!</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__socials">
+        <a href="https://www.linkedin.com/in/jakemccambley/" class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Linkedin">
+          <img src="./images/footer-icons/linkedin.svg" alt="LinkedIn" class="footer__social-icon transparency" />
+        </a>
+        <a href="https://github.com/McCambley" class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Github">
+          <img src="./images/footer-icons/github.svg" alt="Github" class="footer__social-icon transparency" />
+        </a>
+        <a href="https://twitter.com/JakeMcCambley" class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Twitter">
+          <img src="./images/footer-icons/twitter.svg" alt="Twitter" class="footer__social-icon transparency" />
+        </a>
+        <a href="https://medium.com/@JakeMcCambley" class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Medium">
+          <img src="./images/footer-icons/medium.svg" alt="Medium" class="footer__social-icon transparency" />
+        </a>
+        <a href="https://open.spotify.com/playlist/5uPXvGZ9RCP7u4MyORrspZ?si=-dsIm6PfSY2zbMNyAr-VVQ" class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Spotify">
+          <img src="./images/footer-icons/spotify.svg" alt="Spotify" class="footer__social-icon transparency" />
+        </a>
+        <a href="mailto:jake.mccambley@gmail.com" class="footer__social-link" rel="noopener" target="_blank" aria-label="Email me">
+          <img src="./images/footer-icons/email.svg" alt="Email" class="footer__social-icon transparency" />
         </a>
       </div>
-    </section>
+      <a href="https://github.com/McCambley/Jake-McCambley" rel="noopener" target="_blank" class="footer__author-link transparency">
+        <p class="footer__author">Designed and Built by Jake McCambley</p>
+        <p class="footer__copyright">&copy; 2021</p>
+      </a>
+    </footer>
 
-    <section class="about" id="about">
-      <div class="about__content">
-        <img src="./images/headshot-smile.png" alt="Jake McCambley smilin'" class="about__headshot">
-        <div class="about__text">
-          <h2 class="about__title">Hey there, I'm Jake.</h2>
-          <p class="about__subtitle">I am a full stack developer with experience building websites and web applications.
-          </p>
-          <p class="about__paragraph">I've spent the past six years working around the United States in a variety of
-            Industries. From wilderness therapy to mountain hospitality I've worn many hats. I've always been drawn to
-            roles that connect humans to themselves and others.</p>
-          <p class="about__paragraph">These days my time is spent learning how to build and deploy beautiful websites.
-            I've long been interested in the convergence of creativity and problem solving. I'm learning how to best
-            occupy that space. I design and build websites that look good and solve problems.</p>
-          <p class="about__paragraph">When I'm not coding, you can find me <a
-              href="https://open.spotify.com/artist/39tdBzLi2DFuNtFwECZwJX?si=-wkkqWpKQH-Lt7vfAs3WSA" rel="noopener"
-              target="_blank" class="attention">making music</a>, out <a href="https://www.instagram.com/p/BYCG7rpDvF8/"
-              rel="noopener" target="_blank" class="attention">hiking</a>, and petting all the good dogs.</p>
+    <!-- project card template -->
+    <template id="projectcard">
+      <li class="projects__card">
+        <div class="projects__card-image-wrapper">
+          <img src="" alt="" class="projects__card-image" />
         </div>
-        <a href="./experience/index.html" class="about__experience-button">Experience</a>
-      </div>
-    </section>
-
-    <section class="projects" id="projects">
-      <h2 class="projects__title">Projects</h2>
-      <h3 class="projects__subtitle">My recent work is a combination of client collaborations and intentional practice
-        geared towards learning through fun. Hit the github icon to see how each project was built or click through to
-        view the project live.</h3>
-
-      <ul class="projects__projects">
-        <li class="projects__card">
-          <div class="projects__card-image-wrapper">
-            <img src="./images/shaggy.jpeg" alt="Sweater" class="projects__card-image">
-          </div>
-          <h4 class="projects__project-title transparency">
-            <a href="https://mccambley.github.io/web_project_4/" rel="noopener" target="_blank"
-              class="projects__title-link">Around the U.S.</a>
-          </h4>
-          <p class="projects__project-description">This project allows users to upload photos with custom captions to a
-            personal photo collection. Users may also create a custom profile. I built modals windows and unique
-            client-side form validation behavior to improve the user's experience.</p>
-          <p class="projects__project-tech">CSS | JS | Figma</p>
-          <div class="projects__icon-box">
-            <a href="https://github.com/McCambley/web_project_4" rel="noopener" target="_blank"
-              aria-label="View on Github">
-              <!-- <img src="./images/page-icons/github.svg" alt="Open repository" class="projects__icon transparency"> -->
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg>
-            </a>
-            <a href="https://mccambley.github.io/web_project_4/" rel="noopener" target="_blank"
-              aria-label="View project live">
-              <!-- <img src="./images/page-icons/open.svg" alt="Open project" class="projects__icon transparency"> -->
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg>
-            </a>
-          </div>
-        </li>
-
-        <li class="projects__card">
-          <div class="projects__card-image-wrapper">
-            <img src="./images/lead-mountains.jpg" alt="Portland to Portland" class="projects__card-image">
-          </div>
-          <h4 class="projects__project-title transparency">
-            <a href="https://mccambley.github.io/web_project_3/" rel="noopener" target="_blank"
-              class="projects__title-link">Portland to Portland</a>
-          </h4>
-          <p class="projects__project-description">How can we make sure our page is accessible on any device? A foray
-            into the world of responsiveness, this project fulfilled a Figma design and implemented media queries to
-            ensure that the page appeared and functioned seamlessly across all device sizes.</p>
-          <p class="projects__project-tech">HTML5 | CSS | Figma </p>
-          <div class="projects__icon-box">
-            <a href="https://github.com/McCambley/web_project_3" rel="noopener" target="_blank"
-              aria-label="View on Github">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg> </a>
-            <a href="https://mccambley.github.io/web_project_3/" rel="noopener" target="_blank"
-              aria-label="View project live">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg> </a>
-          </div>
-        </li>
-
-        <li class="projects__card">
-          <div class="projects__card-image-wrapper">
-            <img src="./images/feynman.png" alt="Richard Feynman" class="projects__card-image">
-          </div>
-          <h4 class="projects__project-title transparency">
-            <a href="https://mccambley.github.io/web_project_1/" rel="noopener" target="_blank"
-              class="projects__title-link">Learning how to learn</a>
-          </h4>
-          <p class="projects__project-description">This project is an exercise in how to communicate information more
-            effectively using design layouts. This pixel perfect page was my first exercise in transforming an idea to
-            an interactive website.</p>
-          <p class="projects__project-tech">HTML5 | CSS</p>
-          <div class="projects__icon-box">
-            <a href="https://github.com/McCambley/web_project_1" rel="noopener" target="_blank"
-              aria-label="View on Github">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg> </a>
-            <a href="https://mccambley.github.io/web_project_1/" rel="noopener" target="_blank"
-              aria-label="View project live">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg> </a>
-          </div>
-        </li>
-
-        <li class="projects__card">
-          <div class="projects__card-image-wrapper">
-            <img src="./images/primu.png" alt="Woman posing in fresh Makeup" class="projects__card-image">
-          </div>
-          <h4 class="projects__project-title transparency">
-            <a href="https://mccambley.github.io/Prim-U/" rel="noopener" target="_blank"
-              class="projects__title-link">Prim-U</a>
-          </h4>
-          <p class="projects__project-description">Prim-U is a South African beauty service startup. I built them a
-            homepage that achieves their goal of helping freelance beauticians connect with new customers.</p>
-          <p class="projects__project-tech">HTML5 | CSS3 | JS | Figma</p>
-          <div class="projects__icon-box">
-            <a href="https://github.com/McCambley/Prim-U" target="blank" aria-label="View on Github">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg> </a>
-            <a href="https://mccambley.github.io/Prim-U/" rel="noopener" target="_blank" aria-label="View project live">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg> </a>
-          </div>
-        </li>
-
-        <li class="projects__card">
-          <div class="projects__card-image-wrapper">
-            <img src="./images/racism.png" alt="Screenshot of Project" class="projects__card-image">
-          </div>
-          <h4 class="projects__project-title transparency">
-            <a href="https://mccambley.github.io/US-Racism/" rel="noopener" target="_blank"
-              class="projects__title-link">U.S. & Racism</a>
-          </h4>
-          <p class="projects__project-description">On Juneteenth 2021 I built a project that presents facts and
-            provides resources to educate readers about some of the many ways in which systemic racism affects the lives
-            of black americans today.</p>
-          <p class="projects__project-tech">HTML5 | CSS | JS</p>
-          <div class="projects__icon-box">
-            <a href="https://github.com/McCambley/US-Racism" rel="noopener" target="_blank" aria-label="View on Github">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg> </a>
-            <a href="https://mccambley.github.io/US-Racism/" rel="noopener" target="_blank"
-              aria-label="View project live">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg> </a>
-          </div>
-        </li>
-
-        <li class="projects__card">
-          <div class="projects__card-image-wrapper">
-            <img src="./images/headshot-smile.png" alt="Me!" class="projects__card-image">
-          </div>
-          <h4 class="projects__project-title transparency">
-            <a href="#home" class="projects__title-link">Personal Website</a>
-          </h4>
-          <p class="projects__project-description">The goal of this page is to display both my mission and work clearly
-            and concisely in a way that catches the eye without sacrificing functionality. In the beginning of my
-            development education, this website was an exploration in how to create a modern website using solely CSS.
-          </p>
-          <p class="projects__project-tech">HTML5 | CSS | JS</p>
-          <div class="projects__icon-box">
-            <a href="https://github.com/McCambley/Jake-McCambley" rel="noopener" target="_blank"
-              aria-label="View on Github">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-              </svg> </a>
-            <a href="#home" aria-label="View project live">
-              <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-                <line x1="10" y1="14" x2="20" y2="4" />
-                <polyline points="15 4 20 4 20 9" />
-              </svg> </a>
-          </div>
-        </li>
-
-      </ul>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="contact__content">
-        <h2 class="contact__title">Get in touch!</h2>
-        <h3 class="contact__subtitle">I'm always looking for new connections. Shoot me and email and let's chat!</h3>
-        <div class="contact__button-wrapper">
-          <a href="mailto:jakemccamb16@gmail.com" class="contact__button" rel="noopener" target="_blank">Email Me!</a>
-          <a href="https://calendly.com/jake-mccambley/informal-chat" class="contact__button" rel="noopener"
-            target="_blank">Let's Chat!</a>
+        <h4 class="projects__project-title transparency">
+          <a href="" class="projects__title-link"></a>
+        </h4>
+        <p class="projects__project-description"></p>
+        <p class="projects__project-tech"></p>
+        <div class="projects__icon-box">
+          <a href="" rel="noopener" target="_blank" aria-label="View on Github" class="projects__icon-repo">
+            <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+            </svg>
+          </a>
+          <a href="" aria-label="View project live" class="projects__icon-live">
+            <svg class="projects__icon transparency" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+              <line x1="10" y1="14" x2="20" y2="4" />
+              <polyline points="15 4 20 4 20 9" />
+            </svg>
+          </a>
         </div>
-      </div>
-    </section>
-  </main>
+      </li>
+    </template>
 
-  <footer class="footer">
-    <div class="footer__socials">
-      <a href="https://www.linkedin.com/in/jakemccambley/" class="footer__social-link" rel="noopener" target="_blank"
-        aria-label="Visit my Linkedin">
-        <img src="./images/footer-icons/linkedin.svg" alt="LinkedIn" class="footer__social-icon transparency">
-      </a>
-      <a href="https://github.com/McCambley" class="footer__social-link" rel="noopener" target="_blank"
-        aria-label="Visit my Github">
-        <img src="./images/footer-icons/github.svg" alt="Github" class="footer__social-icon transparency">
-      </a>
-      <a href="https://twitter.com/JakeMcCambley" class="footer__social-link" rel="noopener" target="_blank"
-        aria-label="Visit my Twitter">
-        <img src="./images/footer-icons/twitter.svg" alt="Twitter" class="footer__social-icon transparency">
-      </a>
-      <a href="https://medium.com/@JakeMcCambley" class="footer__social-link" rel="noopener" target="_blank"
-        aria-label="Visit my Medium">
-        <img src="./images/footer-icons/medium.svg" alt="Medium" class="footer__social-icon transparency">
-      </a>
-      <a href="https://open.spotify.com/playlist/5uPXvGZ9RCP7u4MyORrspZ?si=-dsIm6PfSY2zbMNyAr-VVQ"
-        class="footer__social-link" rel="noopener" target="_blank" aria-label="Visit my Spotify">
-        <img src="./images/footer-icons/spotify.svg" alt="Spotify" class="footer__social-icon transparency">
-      </a>
-      <a href="mailto:jake.mccambley@gmail.com" class="footer__social-link" rel="noopener" target="_blank"
-        aria-label="Email me">
-        <img src="./images/footer-icons/email.svg" alt="Email" class="footer__social-icon transparency">
-      </a>
-    </div>
-    <a href="https://github.com/McCambley/Jake-McCambley" rel="noopener" target="_blank"
-      class="footer__author-link transparency">
-      <p class="footer__author">Designed and Built by Jake McCambley</p>
-      <p class="footer__copyright">&copy; 2021</p>
-    </a>
-  </footer>
-  <script src="./scripts/script.js"></script>
-</body>
-
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
