@@ -68,7 +68,7 @@ const projects = [
     tech: "MongoDB | Express | React | Node",
     imgSrc: "./images/shaggy.jpeg",
     imgAlt: "Shaggy hiker",
-    liveLink: "https://mccambley.github.io/web_project_4/",
+    liveLink: "https://mccambley.students.nomoreparties.site/",
     repoLink: "https://github.com/McCambley/react-around-api-full",
   },
   {
@@ -77,7 +77,7 @@ const projects = [
     tech: "Contentful | GraphQL | Apollo | React | Node",
     imgSrc: "./images/apiary.png",
     imgAlt: "Apiary",
-    liveLink: "https://mccambley.students.nomoreparties.site/",
+    liveLink: "https://mccambley.github.io/apiary/",
     repoLink: "https://github.com/McCambley/apiary",
   },
 
