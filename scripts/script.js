@@ -69,7 +69,7 @@ const projects = [
     imgSrc: "./images/shaggy.jpeg",
     imgAlt: "Shaggy hiker",
     liveLink: "https://mccambley.github.io/web_project_4/",
-    repoLink: "https://github.com/McCambley/web_project_4",
+    repoLink: "https://github.com/McCambley/react-around-api-full",
   },
   {
     name: "Apiary",
@@ -77,7 +77,7 @@ const projects = [
     tech: "Contentful | GraphQL | Apollo | React | Node",
     imgSrc: "./images/apiary.png",
     imgAlt: "Apiary",
-    liveLink: "https://mccambley.github.io/apiary/",
+    liveLink: "https://mccambley.students.nomoreparties.site/",
     repoLink: "https://github.com/McCambley/apiary",
   },
 
