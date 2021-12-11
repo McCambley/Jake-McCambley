@@ -56,7 +56,7 @@ const projects = [
   {
     name: "NewsExplorer",
     description: "This fullstack applications allows users to login and explore the day's news using the News API. Users can search for, read, and save articles according to their interests. This project is the capstone project of my education at Practicum by Yandex.",
-    tech: "MongoDB | Express | React | Node",
+    tech: "MongoDB | Express | React | Node | Google Cloud | Styled-components",
     imgSrc: "./images/newsexplorer.png",
     imgAlt: "Teh news explorer project",
     liveLink: "https://github.com/McCambley/news-explorer-frontend",
@@ -65,11 +65,20 @@ const projects = [
   {
     name: "Around the U.S.",
     description: "This project allows users to upload photos with custom captions to a personal photo collection. Users may also create a custom profile. I built modals windows and unique client-side form validation behavior to improve the user's experience.",
-    tech: "MongoDB | Express | React | Node",
+    tech: "MongoDB | Express | React | Node | Google Cloud",
     imgSrc: "./images/shaggy.jpeg",
     imgAlt: "Shaggy hiker",
     liveLink: "https://mccambley.students.nomoreparties.site/",
     repoLink: "https://github.com/McCambley/react-around-api-full",
+  },
+  {
+    name: "DotCot",
+    description: "An app designed to make it easier for investors and startups to connect, DotCot allows investors to easily create custom forms, share forms with founders in their network, and collect sortable descriptive data on new startups.",
+    tech: "MongoDB | Express | React | Node | CI-CD | Heroku | Passport | Mocha | Styled-components",
+    imgSrc: "./images/dotcot-phone.png",
+    imgAlt: "DotCot Phone",
+    liveLink: "https://peaceful-woodland-39661.herokuapp.com/",
+    repoLink: "https://github.com/vgalilei/venturecat",
   },
   {
     name: "Apiary",

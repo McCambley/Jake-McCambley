@@ -3,6 +3,9 @@
   line-height: 1;
   font-size: 12px;
   margin-bottom: 12px;
-  font-family: 'RobotoSlab';
+  font-family: "RobotoSlab";
   font-weight: 300;
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: 0.06em;
 }
