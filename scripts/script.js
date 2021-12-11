@@ -59,7 +59,7 @@ const projects = [
     tech: "MongoDB | Express | React | Node | Google Cloud | Styled-components",
     imgSrc: "./images/newsexplorer.png",
     imgAlt: "Teh news explorer project",
-    liveLink: "https://github.com/McCambley/news-explorer-frontend",
+    liveLink: "https://mccambley.github.io/news-explorer-frontend/",
     repoLink: "https://github.com/McCambley/news-explorer-frontend",
   },
   {
