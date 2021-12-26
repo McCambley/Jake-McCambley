@@ -78,7 +78,7 @@ const projects = [
     imgSrc: "./images/dotcot-phone.png",
     imgAlt: "DotCot Phone",
     liveLink: "https://peaceful-woodland-39661.herokuapp.com/",
-    repoLink: "https://github.com/vgalilei/venturecat",
+    repoLink: "https://github.com/McCambley/private-projects#dotcot-by-venturecat",
   },
   {
     name: "Apiary",
