@@ -22,6 +22,10 @@
 @import url(./__other-wrap/experience__other-wrap.css);
 @import url(./__other-org/experience__other-org.css);
 
+/* modifiers */
+@import url(./__logo/_theme/experience__logo_theme_dark.css);
+@import url(./__logo/_theme/experience__logo_theme_light.css);
+
 .experience {
   min-height: 100vh;
   display: -webkit-box;
@@ -29,14 +33,14 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 96px 48px 48px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: var(--primary-bg);
   position: relative;
 }
