@@ -1,3 +1,5 @@
 .experience__projects {
-  border: 1px solid green;
+  /* list-style: none; */
+  list-style-type: circle;
+  padding-left: 2em;
 }

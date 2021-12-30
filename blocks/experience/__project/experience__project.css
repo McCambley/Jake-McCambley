@@ -1,3 +1,7 @@
 .experience__project {
-  border: 1px solid pink;
+  margin-bottom: 4px;
+}
+
+.experience__project:last-of-type {
+  margin-bottom: 0;
 }
