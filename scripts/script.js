@@ -66,7 +66,7 @@ const projects = [
     name: "Around the U.S.",
     description: "This project allows users to upload photos with custom captions to a personal photo collection. Users may also create a custom profile. I built modals windows and unique client-side form validation behavior to improve the user's experience.",
     tech: "MongoDB | Express | React | Node | Google Cloud",
-    imgSrc: "./images/shaggy.jpeg",
+    imgSrc: "./images/jean.jpeg",
     imgAlt: "Shaggy hiker",
     liveLink: "https://mccambley.students.nomoreparties.site/",
     repoLink: "https://github.com/McCambley/react-around-api-full",
