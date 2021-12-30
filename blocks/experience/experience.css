@@ -21,6 +21,9 @@
 @import url(./__other-title/experience__other-title.css);
 @import url(./__other-wrap/experience__other-wrap.css);
 @import url(./__other-org/experience__other-org.css);
+@import url(./__projects/experience__projects.css);
+@import url(./__project/experience__project.css);
+@import url(./__project-link/experience__project-link.css);
 
 /* modifiers */
 @import url(./__logo/_theme/experience__logo_theme_dark.css);
