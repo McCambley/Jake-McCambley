@@ -20,7 +20,7 @@ const projects = [
     tech: "MongoDB | Express | React | Node | Google Cloud",
     imgSrc: "./images/jean.jpeg",
     imgAlt: "Shaggy hiker",
-    liveLink: "https://mccambley.students.nomoreparties.site/",
+    liveLink: "https://mccambley.github.io/react-around-api-full/",
     repoLink: "https://github.com/McCambley/react-around-api-full",
   },
   {
