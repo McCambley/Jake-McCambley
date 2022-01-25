@@ -34,6 +34,16 @@ const projects = [
     repoLink: "https://github.com/McCambley/private-projects/tree/main/dotcot#dotcot-by-venturecat",
   },
   {
+    name: "Orange Runner",
+    description:
+      "My brother, The Orange Runner, writes and illustrates a comic about running. As his biggest fan, I rebuilt his outdated WordPress site using Next.js with content published via Contentful. Static generation with server rendering on request mean faster performance with maximized SEO.",
+    tech: "Next.js | React | Node | styled-components | Contentful",
+    imgSrc: "./images/tor.png",
+    imgAlt: "DotCot Phone",
+    liveLink: "https://the-orange-runner.vercel.app/",
+    repoLink: "https://github.com/McCambley/the-orange-runner",
+  },
+  {
     name: "Apiary",
     description:
       "A single page application built for Practicum by Yandex's Apiary program, which lets students build pages for startups in order to gain experience. Clients may update the page content via Contentful. Queries are sent using GraphQL and managed with Apollo Client. ",
