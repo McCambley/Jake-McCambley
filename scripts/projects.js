@@ -134,7 +134,7 @@ const projects = [
     imgAlt: "Pink clouds",
     liveLink: "https://mccambley.github.io/JSPlayground/",
     repoLink: "https://github.com/McCambley/JSPlayground",
-    demoLink: "https://github.com/McCambley/JSPlayground",
+    demoLink: "https://youtu.be/8z9hugvI4-U",
   },
 ];
 
