@@ -100,7 +100,7 @@ const projects = [
     imgAlt: "Portland to Portland",
     liveLink: "https://mccambley.github.io/web_project_3/",
     repoLink: "https://github.com/McCambley/web_project_3",
-    demoLink: "https://github.com/McCambley/web_project_3",
+    demoLink: "https://youtu.be/zEunkGz6Q74",
   },
   // {
   //   name: "Learning how to learn",
