@@ -43,6 +43,10 @@
   display: none;
 }
 
+.projects__card:nth-of-type(11) {
+  display: none;
+}
+
 @media (max-width: 1186px) {
   .projects__card:nth-of-type(10) {
     display: flex;
@@ -55,6 +59,12 @@
     box-shadow: 0 0px 4px var(--box-shadow);
     opacity: 1;
     background-color: var(--secondary-bg);
+  }
+}
+
+@media (max-width: 816px) {
+  .projects__card:nth-of-type(11) {
+    display: flex;
   }
 }
 
