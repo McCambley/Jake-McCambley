@@ -11,7 +11,7 @@ const projects = [
     imgSrc: "./images/newsexplorer.png",
     imgAlt: "Teh news explorer project",
     liveLink: "https://mccambley.github.io/news-explorer-frontend/",
-    repoLink: "https://github.com/McCambley/news-explorer-frontend",
+    demoLink: "https://github.com/McCambley/news-explorer-frontend",
   },
   {
     name: "Around the U.S.",
@@ -22,6 +22,7 @@ const projects = [
     imgAlt: "Shaggy hiker",
     liveLink: "https://mccambley.github.io/react-around-api-full/",
     repoLink: "https://github.com/McCambley/react-around-api-full",
+    demoLink: "https://github.com/McCambley/react-around-api-full",
   },
   {
     name: "DotCot",
@@ -32,6 +33,7 @@ const projects = [
     imgAlt: "DotCot Phone",
     liveLink: "https://peaceful-woodland-39661.herokuapp.com/",
     repoLink: "https://github.com/McCambley/private-projects/tree/main/dotcot#dotcot-by-venturecat",
+    demoLink: "https://github.com/McCambley/private-projects/tree/main/dotcot#dotcot-by-venturecat",
   },
   {
     name: "Orange Runner",
@@ -42,6 +44,7 @@ const projects = [
     imgAlt: "DotCot Phone",
     liveLink: "https://the-orange-runner.vercel.app/",
     repoLink: "https://github.com/McCambley/the-orange-runner",
+    demoLink: "https://github.com/McCambley/the-orange-runner",
   },
   {
     name: "Apiary",
@@ -52,6 +55,7 @@ const projects = [
     imgAlt: "Apiary",
     liveLink: "https://mccambley.github.io/apiary/",
     repoLink: "https://github.com/McCambley/apiary",
+    demoLink: "https://github.com/McCambley/apiary",
   },
 
   {
@@ -63,6 +67,7 @@ const projects = [
     imgAlt: "Bird silhouette",
     liveLink: "https://mccambley.github.io/hacktober-code-jam/",
     repoLink: "https://github.com/McCambley/hacktober-code-jam",
+    demoLink: "https://github.com/McCambley/hacktober-code-jam",
   },
   {
     name: "U.S. & Racism",
@@ -73,6 +78,7 @@ const projects = [
     imgAlt: "Screenshot of Project",
     liveLink: "https://mccambley.github.io/US-Racism",
     repoLink: "https://github.com/McCambley/US-Racism",
+    demoLink: "https://github.com/McCambley/US-Racism",
   },
   {
     name: "Prim-U",
@@ -83,6 +89,7 @@ const projects = [
     imgAlt: "Woman posing in fresh Makeup",
     liveLink: "https://mccambley.github.io/Prim-U",
     repoLink: "https://github.com/McCambley/Prim-U",
+    demoLink: "https://github.com/McCambley/Prim-U",
   },
   {
     name: "Portland to Portland",
@@ -93,6 +100,7 @@ const projects = [
     imgAlt: "Portland to Portland",
     liveLink: "https://mccambley.github.io/web_project_3/",
     repoLink: "https://github.com/McCambley/web_project_3",
+    demoLink: "https://github.com/McCambley/web_project_3",
   },
   // {
   //   name: "Learning how to learn",
@@ -102,6 +110,7 @@ const projects = [
   //   imgAlt: "Richard Feynman",
   //   liveLink: "https://mccambley.github.io/web_project_1",
   //   repoLink: "https://github.com/McCambley/web_project_1",
+  //   demoLink: "https://github.com/McCambley/web_project_1",
   // },
 
   {
@@ -113,6 +122,7 @@ const projects = [
     imgAlt: "Portfolio logo",
     liveLink: "#home",
     repoLink: "https://github.com/McCambley/Jake-McCambley",
+    demoLink: "https://github.com/McCambley/Jake-McCambley",
   },
 
   {
@@ -124,11 +134,12 @@ const projects = [
     imgAlt: "Pink clouds",
     liveLink: "https://mccambley.github.io/JSPlayground/",
     repoLink: "https://github.com/McCambley/JSPlayground",
+    demoLink: "https://github.com/McCambley/JSPlayground",
   },
 ];
 
 class Card {
-  constructor({ name, description, tech, imgSrc, imgAlt, liveLink, repoLink }) {
+  constructor({ name, description, tech, imgSrc, imgAlt, liveLink, repoLink, demoLink }) {
     this._name = name;
     this._description = description;
     this._tech = tech;
@@ -136,6 +147,7 @@ class Card {
     this._imgAlt = imgAlt;
     this._liveLink = liveLink;
     this._repoLink = repoLink;
+    this._demoLink = demoLink;
   }
 
   createCard() {
@@ -146,6 +158,7 @@ class Card {
     const tech = newProjectClone.querySelector(".projects__project-tech");
     const repo = newProjectClone.querySelector(".projects__icon-repo");
     const live = newProjectClone.querySelector(".projects__icon-live");
+    const demo = newProjectClone.querySelector(".projects__icon-demo");
     image.src = this._imgSrc;
     image.alt = this._imgAlt;
     title.textContent = this._name;
@@ -154,6 +167,7 @@ class Card {
     tech.textContent = this._tech;
     repo.href = this._repoLink;
     live.href = this._liveLink;
+    demo.href = this._demoLink;
     return newProjectClone;
   }
 }
