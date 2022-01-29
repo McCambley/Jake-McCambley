@@ -122,7 +122,7 @@ const projects = [
     imgAlt: "Portfolio logo",
     liveLink: "#home",
     repoLink: "https://github.com/McCambley/Jake-McCambley",
-    demoLink: "https://github.com/McCambley/Jake-McCambley",
+    demoLink: "https://youtu.be/Gi7lSsnpxlY",
   },
 
   {
