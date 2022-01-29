@@ -1,10 +1,10 @@
 .projects__icon-box {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 84px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 160px;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   position: absolute;
   bottom: 8px;
   /* transiting properties */
@@ -12,8 +12,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
   opacity: 0;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -25,8 +25,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
   opacity: 1;
 }
 
@@ -36,8 +36,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-            transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
@@ -45,10 +45,10 @@
 @media (max-width: 675px) {
   .projects__icon-box {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 72px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 120px;
     -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
   }
 }
