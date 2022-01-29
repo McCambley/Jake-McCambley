@@ -67,7 +67,7 @@ const projects = [
     imgAlt: "Bird silhouette",
     liveLink: "https://mccambley.github.io/hacktober-code-jam/",
     repoLink: "https://github.com/McCambley/hacktober-code-jam",
-    demoLink: "https://github.com/McCambley/hacktober-code-jam",
+    demoLink: "https://youtu.be/6hlaG0G9euE",
   },
   {
     name: "U.S. & Racism",
