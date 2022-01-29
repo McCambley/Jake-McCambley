@@ -89,7 +89,7 @@ const projects = [
     imgAlt: "Woman posing in fresh Makeup",
     liveLink: "https://mccambley.github.io/Prim-U",
     repoLink: "https://github.com/McCambley/Prim-U",
-    demoLink: "hhttps://youtu.be/g9YNXG74x9o",
+    demoLink: "https://youtu.be/g9YNXG74x9o",
   },
   {
     name: "Portland to Portland",
