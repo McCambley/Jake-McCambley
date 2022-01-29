@@ -78,7 +78,7 @@ const projects = [
     imgAlt: "Screenshot of Project",
     liveLink: "https://mccambley.github.io/US-Racism",
     repoLink: "https://github.com/McCambley/US-Racism",
-    demoLink: "https://github.com/McCambley/US-Racism",
+    demoLink: "https://youtu.be/cYGvG8u6Lxc",
   },
   {
     name: "Prim-U",
