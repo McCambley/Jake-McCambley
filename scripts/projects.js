@@ -11,7 +11,7 @@ const projects = [
     imgSrc: "./images/newsexplorer.png",
     imgAlt: "Teh news explorer project",
     liveLink: "https://mccambley.github.io/news-explorer-frontend/",
-    demoLink: "https://github.com/McCambley/news-explorer-frontend",
+    demoLink: "https://youtu.be/q7IdngTegY8",
   },
   {
     name: "Around the U.S.",
