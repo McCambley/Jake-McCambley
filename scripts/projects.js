@@ -22,7 +22,7 @@ const projects = [
     imgAlt: "Shaggy hiker",
     liveLink: "https://mccambley.github.io/react-around-api-full/",
     repoLink: "https://github.com/McCambley/react-around-api-full",
-    demoLink: "https://github.com/McCambley/react-around-api-full",
+    demoLink: "https://youtu.be/z0kQNpBVMcw",
   },
   {
     name: "DotCot",
