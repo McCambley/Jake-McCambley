@@ -33,7 +33,7 @@ const projects = [
     imgAlt: "DotCot Phone",
     liveLink: "https://peaceful-woodland-39661.herokuapp.com/",
     repoLink: "https://github.com/McCambley/private-projects/tree/main/dotcot#dotcot-by-venturecat",
-    demoLink: "https://github.com/McCambley/private-projects/tree/main/dotcot#dotcot-by-venturecat",
+    demoLink: "https://youtu.be/yGJ2WOfZvew",
   },
   {
     name: "Orange Runner",
