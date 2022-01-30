@@ -55,7 +55,7 @@ const projects = [
     imgAlt: "Apiary",
     liveLink: "https://mccambley.github.io/apiary/",
     repoLink: "https://github.com/McCambley/apiary",
-    demoLink: "https://github.com/McCambley/apiary",
+    demoLink: "https://youtu.be/ztpOAcOPbu0",
   },
 
   {
