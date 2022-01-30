@@ -44,7 +44,7 @@ const projects = [
     imgAlt: "DotCot Phone",
     liveLink: "https://the-orange-runner.vercel.app/",
     repoLink: "https://github.com/McCambley/the-orange-runner",
-    demoLink: "https://github.com/McCambley/the-orange-runner",
+    demoLink: "https://youtu.be/G9VpHw2V0II",
   },
   {
     name: "Apiary",
