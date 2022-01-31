@@ -132,8 +132,8 @@ const projects = [
     tech: "HTML5 | CSS | JS",
     imgSrc: "./images/js30.jpeg",
     imgAlt: "Pink clouds",
-    liveLink: "https://mccambley.github.io/JSPlayground/",
-    repoLink: "https://github.com/McCambley/JSPlayground",
+    liveLink: "https://mccambley.github.io/JavaScript30/",
+    repoLink: "https://github.com/McCambley/JavaScript30",
     demoLink: "https://youtu.be/8z9hugvI4-U",
   },
 ];
