@@ -7,7 +7,7 @@ const projects = [
     name: "NewsExplorer",
     description:
       "This fullstack applications allows users to login and explore the day's news using the News API. Users can search for, read, and save articles according to their interests. This project is the capstone project of my education at Practicum by Yandex.",
-    tech: "MongoDB | Express | React | Node | Google Cloud | Styled-components",
+    tech: "TypeScript | React | MongoDB | Express | Node | Google Cloud | Styled-components",
     imgSrc: "./images/newsexplorer.png",
     imgAlt: "Teh news explorer project",
     liveLink: "https://mccambley.github.io/news-explorer-frontend/",
