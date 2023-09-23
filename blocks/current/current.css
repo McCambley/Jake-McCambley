@@ -1,0 +1,43 @@
+@import url(./__content/current__content.css);
+@import url(./__experience-button/current__experience-button.css);
+@import url(./__headshot/current__headshot.css);
+@import url(./__paragraph/current__paragraph.css);
+@import url(./__subtitle/current__subtitle.css);
+@import url(./__text/current__text.css);
+@import url(./__title/current__title.css);
+
+.current {
+  height: 100vh;
+  max-height: 1200px;
+  min-height: 700px;
+  width: 100%;
+  background-color: var(--tertiary-bg);
+  width: 100%;
+  padding: 48px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+  .current {
+    max-height: none;
+    height: auto;
+    padding: 48px 36px;
+  }
+}
+
+@media (max-width: 675px) {
+  .current {
+    padding: 36px 20px;
+  }
+}
