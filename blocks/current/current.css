@@ -5,6 +5,7 @@
 @import url(./__subtitle/current__subtitle.css);
 @import url(./__text/current__text.css);
 @import url(./__title/current__title.css);
+@import url(./__link/current__link.css);
 
 .current {
   height: 100vh;
