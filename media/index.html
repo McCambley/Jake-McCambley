@@ -10,9 +10,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./../images/favicons/favicon-white/favicon-16x16.png" />
   <link rel="manifest" href="./../images/favicons/favicon-white/site.webmanifest" />
   <link rel="stylesheet" href="../pages/index.css" />
-  <title>Experience</title>
+  <title>Media</title>
   <meta name="Description"
-    content="My past professional experience spans multiple distinct industries. I bring a wide array of unique skills and abilities to every project I touch." />
+    content="I've appeared in podcasts, commercials, and have written numerous blog posts. Check them out here." />
 </head>
 
 <body class="page page_theme_dark">
@@ -54,10 +54,14 @@
 
   <!-- Main body -->
   <main>
-    <!-- Experience -->
-    <section class="experience" id="experience">
-      <h1 class="experience__title">Media</h1>
-      <h2 class="experience__subtitle">Check out my recent blog posts and media appearances</h2>
+    <!-- Media -->
+    <section class="media" id="media">
+      <h1 class="media__title">Media</h1>
+      <h2 class="media__subtitle">Check out my recent blog posts and media appearances</h2>
+
+      <!-- Media container -->
+      <ul class="media__list"></ul>
+
       <h3>coming soon...</h2>
         <a href="https://jakemccambley.medium.com/" target="_blank" rel="noopener" class="contact__button">Visit Blog</a>
     </section>
@@ -112,6 +116,23 @@
       <p class="footer__copyright">&copy; 2021</p>
     </a>
   </footer>
+
+  <!-- Media Template -->
+  <template id="media-item-template">
+    <div class="media-item">
+      <img class="media-item__image" src="" alt="Media Project Image">
+      <div class="media-item__details">
+        <h3 class="media-item__title"></h3>
+        <p class="media-item__type"></p>
+        <p class="media-item__date"></p>
+        <p class="media-item__description"></p>
+        <ul class="media-item__tags"></ul>
+        <p class="media-item__read-length"></p>
+      </div>
+    </div>
+  </template>
+
+  <script src="../scripts/media.js"></script>
   <script src="../scripts/script.js"></script>
 </body>
 
