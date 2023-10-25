@@ -15,10 +15,11 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/transparency/transparency.css);
 @import url(../blocks/grow/grow.css);
-@import url(../blocks/projects/projects.css);
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/experience/experience.css);
 @import url(../blocks/attention/attention.css);
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/media/media.css);
 
 /* modifiers */
 @import url(../blocks/page/_theme/page_theme_dark.css);
