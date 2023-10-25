@@ -36,6 +36,9 @@
   -webkit-box-shadow: 0 0 8px var(--box-shadow);
           box-shadow: 0 0 8px var(--box-shadow);
   background-color: var(--header);
+  backdrop-filter: blur(8px);
+
+
   z-index: 2;
   /* animation: refresh 1s ease-in 3s 1 forwards; */
   /* animation: refresh 0s ease-in 0s 1 forwards; */
