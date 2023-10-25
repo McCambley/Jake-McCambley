@@ -1,4 +1,5 @@
 // PROJECTS
+// As projects are added and removed update /blocks/projects/__card/projects__card.css
 const projectContainer = document.querySelector(".projects__projects");
 const projectTemplate = document.querySelector("#projectcard");
 
@@ -9,7 +10,7 @@ const projects = [
       "This application allows users to login and explore the day's news using the News API. Users can search for, read, and save articles according to their interests. This project is the capstone project of my education at Practicum by Yandex.",
     tech: "React | TypeScript | MongoDB | Express | Node.js | Google Cloud | Styled-components",
     imgSrc: "./images/newsexplorer.png",
-    imgAlt: "Teh news explorer project",
+    imgAlt: "The news explorer project",
     liveLink: "https://mccambley.github.io/news-explorer-frontend/",
     repoLink: "https://github.com/McCambley/news-explorer-frontend",
     demoLink: "https://youtu.be/q7IdngTegY8",
@@ -32,9 +33,20 @@ const projects = [
     tech: "React | Express | MongoDB | Node.js | CI-CD | Heroku | Passport | Mocha | Styled-components",
     imgSrc: "./images/dotcot-phone.png",
     imgAlt: "DotCot Phone",
-    liveLink: "https://peaceful-woodland-39661.herokuapp.com/",
+    liveLink: "",
     repoLink: "https://github.com/McCambley/private-projects/tree/main/dotcot#dotcot-by-venturecat",
     demoLink: "https://youtu.be/yGJ2WOfZvew",
+  },
+  {
+    name: "Applets",
+    description:
+      "I love crafting intricate solutions for everyday issues. Applets is a collection of small, fun apps I've created over the years, designed to optimize life's little moments, like discovering a song's tempo or calculating gym weights, and more.",
+    tech: "OpenAI API | Spotify API | JS | X (Twitter) API | Speech Synthesis API | Google Cloud Functions ",
+    imgSrc: "./images/swirl.png",
+    imgAlt: "Applets",
+    liveLink: "https://github.com/McCambley/applets/blob/main/README.md",
+    repoLink: "https://github.com/McCambley/applets",
+    demoLink: "",
   },
   {
     name: "Orange Runner",
@@ -166,10 +178,19 @@ class Card {
     title.href = this._liveLink;
     description.textContent = this._description;
     tech.textContent = this._tech;
-    repo.href = this._repoLink;
-    live.href = this._liveLink;
-    demo.href = this._demoLink;
+    this._populateIcon(repo, this._repoLink);
+    this._populateIcon(live, this._liveLink);
+    this._populateIcon(demo, this._demoLink);
+
     return newProjectClone;
+  }
+
+  _populateIcon(element, value) {
+    if (value) {
+      element.href = value;
+    } else {
+      element.classList.add("hide");
+    }
   }
 }
 

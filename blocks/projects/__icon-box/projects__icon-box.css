@@ -1,8 +1,8 @@
 .projects__icon-box {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 160px;
+  justify-content: space-around;
+  width: 180px;
   -ms-flex-item-align: center;
   align-self: center;
   position: absolute;

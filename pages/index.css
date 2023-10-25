@@ -24,6 +24,12 @@
 @import url(../blocks/page/_theme/page_theme_dark.css);
 @import url(../blocks/page/_theme/page_theme_light.css);
 
+
+/* Utility Classes */
+.hide {
+  display: none;
+}
+
 /* Color variables  */
 
 /* Now that the page theme is set with CSS variables, redesign will be far easier

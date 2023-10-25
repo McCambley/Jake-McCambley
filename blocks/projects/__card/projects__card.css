@@ -1,3 +1,5 @@
+/* nth-of-type code below will maintain grid divisions as projects are added */
+
 .projects__card {
   padding: 24px 16px 36px;
   display: -webkit-box;
@@ -39,19 +41,19 @@
   background-color: var(--secondary-bg);
 }
 
-.projects__card:nth-of-type(10) {
+/* .projects__card:nth-of-type(11) {
   display: none;
-}
+} */
 
-.projects__card:nth-of-type(11) {
-  display: none;
-}
 
-@media (max-width: 1186px) {
-  .projects__card:nth-of-type(10) {
+/* @media (max-width: 1186px) {
+  .projects__card:nth-of-type(12) {
+    display: none;
+  }
+  .projects__card:nth-of-type(11) {
     display: flex;
   }
-}
+} */
 
 @media (max-width: 1024px) {
   .projects__card {
@@ -62,11 +64,11 @@
   }
 }
 
-@media (max-width: 816px) {
-  .projects__card:nth-of-type(11) {
+/* @media (max-width: 816px) {
+  .projects__card:nth-of-type(12) {
     display: flex;
   }
-}
+} */
 
 @media (max-width: 675px) {
   .projects__card {
