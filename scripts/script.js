@@ -5,6 +5,8 @@ const headerLogo = page.querySelector(".logo__image");
 const overlayLogo = page.querySelector(".page__loading-logo");
 const toggle = page.querySelector(".header__toggle-input");
 const toggleIcon = page.querySelector(".header__toggle-icon");
+const menuButton = page.querySelector(".header__menu-toggle");
+const menuButtonIcon = document.querySelector(".header__menu-toggle-icon");
 
 setCheckedState();
 
@@ -33,12 +35,32 @@ function toggleIconTheme() {
     headerLogo.src = "/images/logo-new-nobrdr-dark.svg";
     toggleIcon.src = "/images/page-icons/moon.svg";
     overlayLogo.style.backgroundImage = "url(/images/logo-new-nobrdr-dark.svg)";
+    menuButtonIcon.src = "/images/page-icons/menu_dark.svg";
   } else {
     headerLogo.src = "/images/logo-new-nobrdr.svg";
     toggleIcon.src = "/images/page-icons/sun.svg";
     overlayLogo.style.backgroundImage = "url(/images/logo-new-nobrdr.svg)";
+    menuButtonIcon.src = "/images/page-icons/menu_light.svg";
   }
 }
+
+// Toggle menu on button click
+function toggleMenu() {
+  const menu = document.querySelector(".header__menu");
+  const menuIsOpen = menu.classList.contains("header__menu_visible");
+  const themeIsDark = page.classList.contains("page_theme_dark");
+  menu.classList.toggle("header__menu_visible");
+  menuButtonIcon.src =
+    "../images/page-icons/" +
+    (menuIsOpen
+      ? `menu${themeIsDark ? "_light" : "_dark"}.svg`
+      : `close${themeIsDark ? "_light" : "_dark"}.svg`);
+}
+
+// Close menu on link click
+page.querySelectorAll(".header__menu-link").forEach((link) => {
+  link.addEventListener("click", toggleMenu);
+});
 
 // convert string to boolean
 function isTrue(value) {
@@ -47,3 +69,4 @@ function isTrue(value) {
 
 // Event listeners
 toggle.addEventListener("change", toggleTheme);
+menuButton.addEventListener("click", toggleMenu);

@@ -20,11 +20,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0 48px 0;
   /* position: sticky; */
   top: 0;
@@ -32,12 +32,11 @@
   width: 100%;
   height: 54px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: 0 0 8px var(--box-shadow);
-          box-shadow: 0 0 8px var(--box-shadow);
+  box-shadow: 0 0 8px var(--box-shadow);
   background-color: var(--header);
   backdrop-filter: blur(8px);
-
 
   z-index: 2;
   /* animation: refresh 1s ease-in 3s 1 forwards; */
@@ -48,7 +47,76 @@
 @media (max-width: 675px) {
   .header {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+/* MIGRATE */
+.header__menu-toggle {
+  display: none;
+}
+
+.header__menu {
+  padding: 64px 32px;
+  margin: 0;
+  display: none;
+}
+
+@media (max-width: 675px) {
+  .header__menu-toggle {
+    display: block;
+  }
+
+  .header__menu {
+    list-style: none;
+    box-sizing: border-box;
+    z-index: 1;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translateX(-100vw);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .header__menu_visible {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .header__menu-toggle {
+    outline: none;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 16px;
+    width: 24px;
+    padding: 0;
+    z-index: 2;
+  }
+
+  .header__menu-toggle-icon {
+    width: 100%;
+  }
+
+  .header__menu-link {
+    color: inherit;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
   }
 }
