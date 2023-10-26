@@ -79,6 +79,7 @@
 .media-item__title {
   margin: 0;
   margin-bottom: 12px;
+  color: inherit;
 }
 
 .media-item__description {

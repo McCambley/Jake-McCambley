@@ -1,7 +1,33 @@
+// @ts-check
 // MEDIA
 const mediaContainer = document.querySelector(".media__list");
 
+/**
+ * @typedef {Object} MediaItem
+ * @property {string} type - The type of media item (e.g. video, blog, etc.)
+ * @property {string} date - The date the media item was published
+ * @property {string} title - The title of the media item
+ * @property {string} description - A short description of the media item
+ * @property {string[]} tags - A list of tags associated with the media item
+ * @property {string} readLength - The estimated read time of the media item
+ * @property {string} image - The image associated with the media item
+ * @property {string} link - The link to the media item
+ */
+/**
+ * @type {MediaItem[]}
+ */
 const mediaItems = [
+  {
+    type: "Video",
+    date: "2023-06-14",
+    title: "TripleTen Interview",
+    description:
+      "In 2021 I graduated from TripleTen's Software Engineering program. A year after graduation, I sat down with them to talk about my journey, from hiking in the mountains of New Hampshire, to working for a Brooklyn based mental health startup.",
+    tags: ["Software Engineering", "Interview", "Learning", "Hiking"],
+    readLength: "6 minute watch",
+    image: "../images/tripleten_screenshot.png",
+    link: "https://www.youtube.com/watch?v=SratIvYEjc8&ab_channel=TripleTen",
+  },
   {
     type: "Blog",
     date: "2023-10-25",
@@ -12,6 +38,7 @@ const mediaItems = [
     readLength: "5 minute read",
     image:
       "https://images.unsplash.com/photo-1510771463146-e89e6e86560e?auto=format&fit=crop&q=80&w=1362&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    link: "https://www.youtube.com/watch?v=SratIvYEjc8&ab_channel=TripleTen",
   },
   {
     type: "Video",
@@ -23,14 +50,16 @@ const mediaItems = [
     readLength: "45 minute read",
     image:
       "https://images.unsplash.com/photo-1457144759132-40d119c2f120?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    link: "https://www.youtube.com/watch?v=SratIvYEjc8&ab_channel=TripleTen",
   },
 ];
 
 class MediaCard {
-  constructor({ type, date, title, description, tags, readLength, image }) {
+  constructor({ type, date, title, description, tags, readLength, image, link }) {
     this._type = type;
     this._date = date;
     this._title = title;
+    this._link = link;
     this._description = description;
     this._tags = tags;
     this._readLength = readLength;
@@ -57,6 +86,7 @@ class MediaCard {
     image.src = this._image;
     image.alt = this._title;
     mediaTitle.textContent = this._title;
+    mediaTitle.href = this._link;
     mediaType.textContent = `${this._type}`;
     mediaDate.textContent = formattedDate;
     // mediaMetadata.textContent = `${this._type} | ${this._date}`;
