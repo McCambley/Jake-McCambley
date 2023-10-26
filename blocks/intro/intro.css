@@ -1,67 +1,67 @@
-@import url('./__content/intro__content.css');
-@import url('./__headshot/intro__headshot.css');
-@import url('./__link/intro__link.css');
-@import url('./__links/intro__links.css');
-@import url('./__scroll-button/intro__scroll-button.css');
-@import url('./__scroll-icon/intro__scroll-icon.css');
-@import url('./__subtitle/intro__subtitle.css');
-@import url('./__text/intro__text.css');
-@import url('./__title/intro__title.css');
+@import url("./__content/intro__content.css");
+@import url("./__headshot/intro__headshot.css");
+@import url("./__link/intro__link.css");
+@import url("./__links/intro__links.css");
+@import url("./__scroll-button/intro__scroll-button.css");
+@import url("./__scroll-icon/intro__scroll-icon.css");
+@import url("./__subtitle/intro__subtitle.css");
+@import url("./__text/intro__text.css");
+@import url("./__title/intro__title.css");
 
 /* Animation frames for buttons? */
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    transform: translateY(-50px);
     opacity: 0;
     -webkit-animation-timing-function: ease;
-            animation-timing-function: ease;
+    animation-timing-function: ease;
   }
   45% {
     -webkit-transform: translateY(-10x);
-            transform: translateY(-10x);
+    transform: translateY(-10x);
     opacity: 1;
     -webkit-animation-timing-function: ease;
-            animation-timing-function: ease;
+    animation-timing-function: ease;
   }
   55% {
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
     opacity: 1;
     -webkit-animation-timing-function: ease;
-            animation-timing-function: ease;
+    animation-timing-function: ease;
   }
   100% {
     -webkit-transform: translateY(30px);
-            transform: translateY(30px);
+    transform: translateY(30px);
     opacity: 0;
   }
 }
 @keyframes bounce {
   0% {
     -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    transform: translateY(-50px);
     opacity: 0;
     -webkit-animation-timing-function: ease;
-            animation-timing-function: ease;
+    animation-timing-function: ease;
   }
   45% {
     -webkit-transform: translateY(-10x);
-            transform: translateY(-10x);
+    transform: translateY(-10x);
     opacity: 1;
     -webkit-animation-timing-function: ease;
-            animation-timing-function: ease;
+    animation-timing-function: ease;
   }
   55% {
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
     opacity: 1;
     -webkit-animation-timing-function: ease;
-            animation-timing-function: ease;
+    animation-timing-function: ease;
   }
   100% {
     -webkit-transform: translateY(30px);
-            transform: translateY(30px);
+    transform: translateY(30px);
     opacity: 0;
   }
 }
@@ -70,21 +70,21 @@
 @-webkit-keyframes popup {
   from {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   to {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes popup {
   from {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   to {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -93,34 +93,34 @@
   0% {
     opacity: 0;
     -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+    transform: scale(0.7);
   }
   25% {
     opacity: 0.6;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes button-pop {
   0% {
     opacity: 0;
     -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+    transform: scale(0.7);
   }
   25% {
     opacity: 0.6;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -133,15 +133,16 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   /* position: relative; */
 
   /* padding-top: 200px;
   padding-left: 450px; */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
+  background: var(--background-ellipse-primary);
 }

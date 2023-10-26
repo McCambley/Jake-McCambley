@@ -1,13 +1,39 @@
 .page_theme_light {
-  --text: #404652;
-  --header: #fefffee6;
-  --primary-bg: #fefffe;
-  --secondary-bg: #e1e4e9;
-  --tertiary-bg: #c9ced8;
-  --quaternary-bg: #acb4c3;
-  --footer: #404652;
-  --footer-text: #f4f5f5;
-  --box-shadow: #404652;
-  --icons: #404652;
+  --text: rgb(64, 70, 82);
+  --radial-focus: rgba(64, 70, 82, 0.1);
+  --header: rgba(254, 255, 254, 0.2);
+  --primary-bg: rgb(254, 255, 254);
+  --secondary-bg: rgb(225, 228, 233);
+  --tertiary-bg: rgb(201, 206, 216);
+  --quaternary-bg: rgb(172, 180, 195);
+  --footer: rgb(64, 70, 82);
+  --footer-text: rgb(244, 245, 245);
+  --box-shadow: rgb(64, 70, 82);
+  --icons: rgb(64, 70, 82);
   --show-logo-light: none;
+  --background-ellipse-primary: radial-gradient(
+    ellipse at center,
+    var(--radial-focus),
+    var(--primary-bg)
+  );
+  --background-ellipse-secondary: radial-gradient(
+    ellipse at center,
+    var(--radial-focus),
+    var(--secondary-bg)
+  );
+  --background-ellipse-tertiary: radial-gradient(
+    ellipse at center,
+    var(--radial-focus),
+    var(--tertiary-bg)
+  );
+  --background-ellipse-quaternary: radial-gradient(
+    ellipse at center,
+    var(--radial-focus),
+    var(--quaternary-bg)
+  );
+  --background-ellipse-footer: radial-gradient(
+    ellipse at center,
+    var(--radial-focus),
+    var(--footer-bg)
+  );
 }

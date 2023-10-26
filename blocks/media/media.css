@@ -1,3 +1,6 @@
+.media {
+  background: var(--background-ellipse-primary);
+}
 .media__list {
   padding: 0;
   margin: 0;
@@ -11,6 +14,7 @@
   padding: 32px;
   border-radius: 32px;
   margin-bottom: 16px;
+  background: var(--primary-bg);
 }
 
 .media-item__image {
@@ -74,6 +78,7 @@
   padding: 8px 12px;
   border: 1px solid var(--icons);
   background-color: var(--secondary-bg);
+  background: var(--background-ellipse-secondary);
   border-radius: 50px;
   font-size: 12px;
 }

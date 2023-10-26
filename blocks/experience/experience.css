@@ -45,6 +45,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color: var(--primary-bg);
+  background: var(--background-ellipse-primary);
   position: relative;
 }
 
