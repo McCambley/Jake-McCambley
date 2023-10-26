@@ -66,6 +66,7 @@
 @media (max-width: 675px) {
   .header__menu-toggle {
     display: block;
+    cursor: pointer;
   }
 
   .header__menu {
