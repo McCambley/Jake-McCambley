@@ -58,7 +58,8 @@
 }
 
 .header__menu {
-  padding: 64px 32px;
+  padding: 32px;
+  padding-top: 64px;
   margin: 0;
   display: none;
 }
@@ -118,7 +119,7 @@
   .header__menu-link {
     color: inherit;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     text-decoration: none;
   }
 }
