@@ -1,7 +1,7 @@
 .page_theme_dark {
   --text: rgb(244, 245, 245);
   --radial-focus: rgba(244, 245, 245, 0.1);
-  --header: rgba(42, 44, 47, 0.2);
+  --header: rgba(42, 44, 47, 0.9);
   --primary-bg: rgb(42, 44, 47);
   --secondary-bg: rgb(58, 60, 65);
   --tertiary-bg: rgb(38, 40, 43);

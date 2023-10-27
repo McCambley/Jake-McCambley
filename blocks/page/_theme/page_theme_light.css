@@ -1,7 +1,7 @@
 .page_theme_light {
   --text: rgb(64, 70, 82);
   --radial-focus: rgba(64, 70, 82, 0.1);
-  --header: rgba(254, 255, 254, 0.2);
+  --header: rgba(254, 255, 254, 0.9);
   --primary-bg: rgb(254, 255, 254);
   --secondary-bg: rgb(225, 228, 233);
   --tertiary-bg: rgb(201, 206, 216);
