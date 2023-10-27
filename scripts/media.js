@@ -1,4 +1,3 @@
-// @ts-check
 // MEDIA
 const mediaContainer = document.querySelector(".media__list");
 
