@@ -117,7 +117,7 @@
   }
 
   .header__menu-link {
-    color: inherit;
+    color: var(--text);
     font-size: 48px;
     font-weight: 900;
     text-decoration: none;
