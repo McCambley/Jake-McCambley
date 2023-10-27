@@ -71,7 +71,7 @@ class MediaCard {
     const newMediaProjectClone = mediaProjectTemplate.content.cloneNode(true);
 
     const image = newMediaProjectClone.querySelector(".media-item__image");
-    const mediaTitle = newMediaProjectClone.querySelector(".media-item__title");
+    const mediaTitle = newMediaProjectClone.querySelector(".media-item__link");
     const mediaType = newMediaProjectClone.querySelector(".media-item__type");
     const mediaDate = newMediaProjectClone.querySelector(".media-item__date");
     // const mediaMetadata = newMediaProjectClone.querySelector(".media-item__metadata");

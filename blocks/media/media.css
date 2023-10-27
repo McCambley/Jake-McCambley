@@ -79,6 +79,8 @@
 .media-item__title {
   margin: 0;
   margin-bottom: 12px;
+}
+.media-item__link {
   color: inherit;
 }
 
