@@ -44,7 +44,7 @@ const projects = [
     tech: "OpenAI API | Spotify API | JS | X (Twitter) API | Speech Synthesis API | Google Cloud Functions ",
     imgSrc: "./images/swirl.png",
     imgAlt: "Applets",
-    liveLink: "https://github.com/McCambley/applets/blob/main/README.md",
+    liveLink: "https://mccambley.github.io/applets/",
     repoLink: "https://github.com/McCambley/applets",
     demoLink: "",
   },
