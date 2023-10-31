@@ -1,54 +1,54 @@
 @-webkit-keyframes wiggle {
   0% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   75% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   80% {
     -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
   85% {
     -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
+    transform: rotate(5deg);
   }
   95% {
     -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
   100% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 
 @keyframes wiggle {
   0% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   75% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   80% {
     -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
   85% {
     -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
+    transform: rotate(5deg);
   }
   95% {
     -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
   100% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 
@@ -60,5 +60,5 @@
 
 .projects__card:hover .projects__icon {
   -webkit-animation: wiggle 1s linear;
-          animation: wiggle 1s linear;
+  animation: wiggle 1s linear;
 }

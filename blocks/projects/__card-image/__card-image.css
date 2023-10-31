@@ -1,10 +1,10 @@
 .projects__card-image {
   height: 100%;
   -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
   text-align: center;
   -webkit-filter: grayscale(50%) blur(1px);
-          filter: grayscale(50%) blur(1px);
+  filter: grayscale(50%) blur(1px);
   -webkit-transition: -webkit-filter 0.2s ease-in-out;
   transition: -webkit-filter 0.2s ease-in-out;
   -o-transition: filter 0.2s ease-in-out;
@@ -14,17 +14,17 @@
 
 .projects__card:hover .projects__card-image {
   -webkit-filter: grayscale(15%) blur(0);
-          filter: grayscale(15%) blur(0);
+  filter: grayscale(15%) blur(0);
 }
 
 @media (max-width: 1023px) {
   .projects__card-image {
     -webkit-filter: grayscale(40%) blur(0);
-            filter: grayscale(40%) blur(0);
+    filter: grayscale(40%) blur(0);
   }
 
   .projects__card:hover .projects__card-image {
     -webkit-filter: grayscale(40%) blur(0);
-            filter: grayscale(40%) blur(0);
+    filter: grayscale(40%) blur(0);
   }
 }

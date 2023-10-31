@@ -4,7 +4,7 @@
   width: 100%;
   stroke: var(--text);
   -webkit-animation: bounce 1.5s infinite forwards;
-          animation: bounce 1.5s infinite forwards;
+  animation: bounce 1.5s infinite forwards;
 }
 
 @media (max-width: 460px) {

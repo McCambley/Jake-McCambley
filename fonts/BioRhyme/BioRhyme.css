@@ -1,29 +1,29 @@
 @font-face {
-  src: url(./BioRhyme-ExtraLight.ttf) format('truetype');
-  font-family: 'BioRhyme';
+  src: url(./BioRhyme-ExtraLight.ttf) format("truetype");
+  font-family: "BioRhyme";
   font-weight: 200;
 }
 
 @font-face {
-  src: url(./BioRhyme-Light.ttf) format('truetype');
-  font-family: 'BioRhyme';
+  src: url(./BioRhyme-Light.ttf) format("truetype");
+  font-family: "BioRhyme";
   font-weight: 300;
 }
 
 @font-face {
-  src: url(./BioRhyme-Regular.ttf) format('truetype');
-  font-family: 'BioRhyme';
+  src: url(./BioRhyme-Regular.ttf) format("truetype");
+  font-family: "BioRhyme";
   font-weight: 400;
 }
 
 @font-face {
-  src: url(./BioRhyme-Bold.ttf) format('truetype');
-  font-family: 'BioRhyme';
+  src: url(./BioRhyme-Bold.ttf) format("truetype");
+  font-family: "BioRhyme";
   font-weight: 700;
 }
 
 @font-face {
-  src: url(./BioRhyme-ExtraBold.ttf) format('truetype');
-  font-family: 'BioRhyme';
+  src: url(./BioRhyme-ExtraBold.ttf) format("truetype");
+  font-family: "BioRhyme";
   font-weight: 800;
 }

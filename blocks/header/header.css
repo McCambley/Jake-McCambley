@@ -36,6 +36,7 @@
   -webkit-box-shadow: 0 0 8px var(--box-shadow);
   box-shadow: 0 0 8px var(--box-shadow);
   background-color: var(--header);
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 
   z-index: 2;
@@ -72,6 +73,7 @@
 
   .header__menu {
     list-style: none;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     z-index: 1;
     display: block;
@@ -83,16 +85,33 @@
     height: 100vh;
     width: 100vw;
     background-color: var(--primary-bg);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-transform: translateX(-100vw);
+    -ms-transform: translateX(-100vw);
     transform: translateX(-100vw);
     opacity: 0;
+    -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+    transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease, opacity 0.3s ease;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease, -webkit-transform 0.3s ease;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
   }
 
   .header__menu_visible {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }

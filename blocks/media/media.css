@@ -52,7 +52,11 @@
 }
 
 .media-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border: 2px solid gray;
   padding: 32px;
@@ -67,13 +71,18 @@
   min-width: 200px; /* Or whatever size you want */
   min-height: 200px; /* Make it a square */
   border-radius: 50%; /* Make it a circle */
+  -o-object-fit: cover;
   object-fit: cover; /* Cover the whole 'box' */
   overflow: hidden; /* Hide anything outside the circle */
   margin-right: 32px;
 }
 
 .media-item__metadata {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 12px;
 }
@@ -109,7 +118,10 @@
 
 .media-item__tags {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 
   padding: 0;
@@ -119,7 +131,11 @@
   margin: 0;
   margin-right: 12px;
   margin-bottom: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   justify-items: center;
   padding: 8px 12px;
@@ -153,6 +169,9 @@
     width: 75%;
   }
   .media-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .media-item__image {

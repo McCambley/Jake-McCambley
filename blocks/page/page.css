@@ -33,14 +33,14 @@ html {
   width: 100%;
   min-width: 300px;
   background-color: var(--primary-bg);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0 auto 0;
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-animation: page-limit 2.5s linear;
-          animation: page-limit 2.5s linear;
+  animation: page-limit 2.5s linear;
 }
 
 @media (max-width: 1279px) {

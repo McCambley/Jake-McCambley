@@ -7,7 +7,7 @@
   top: 15%;
   left: 15%; */
   -webkit-filter: drop-shadow(0 0 3px var(--box-shadow));
-          filter: drop-shadow(0 0 3px var(--box-shadow));
+  filter: drop-shadow(0 0 3px var(--box-shadow));
   -webkit-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;

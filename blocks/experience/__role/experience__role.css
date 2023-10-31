@@ -5,13 +5,13 @@
   gap: 18px;
   padding: 28px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 20px;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -20,10 +20,10 @@
 
 .experience__role:hover {
   -webkit-transform: translateY(-5px);
-      -ms-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
   -webkit-box-shadow: 0 0px 12px var(--box-shadow);
-          box-shadow: 0 0px 12px var(--box-shadow);
+  box-shadow: 0 0px 12px var(--box-shadow);
   background-color: var(--secondary-bg);
   opacity: 1;
 }
@@ -31,7 +31,7 @@
 @media (max-width: 1023px) {
   .experience__role {
     -webkit-box-shadow: 0 0px 4px var(--box-shadow);
-            box-shadow: 0 0px 4px var(--box-shadow);
+    box-shadow: 0 0px 4px var(--box-shadow);
     background-color: var(--secondary-bg);
     opacity: 1;
   }
@@ -42,9 +42,9 @@
   .experience__role {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-      'a a a b'
-      'c c c c'
-      'd d d d';
+      "a a a b"
+      "c c c c"
+      "d d d d";
     gap: 12px;
     position: relative;
     padding-top: 20px;
@@ -58,9 +58,9 @@
 
   .experience__role:hover {
     -webkit-transform: translate(0);
-        -ms-transform: translate(0);
-            transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
     -webkit-box-shadow: 0 0px 4px var(--box-shadow);
-            box-shadow: 0 0px 4px var(--box-shadow);
+    box-shadow: 0 0px 4px var(--box-shadow);
   }
 }
