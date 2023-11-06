@@ -95,8 +95,7 @@ const projects = [
   },
   {
     name: "Prim-U",
-    description:
-      "Prim-U is a South African beauty service startup. I built them a homepage that achieves their goal of helping freelance beauticians connect with new customers.",
+    description: "Prim-U is a South African beauty service startup. I built them a homepage that achieves their goal of helping freelance beauticians connect with new customers.",
     tech: "HTML | CSS | JS | Figma",
     imgSrc: "./images/primu.png",
     imgAlt: "Woman posing in fresh Makeup",

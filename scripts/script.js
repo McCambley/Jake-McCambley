@@ -50,11 +50,7 @@ function toggleMenu() {
   const menuIsOpen = menu.classList.contains("header__menu_visible");
   const themeIsDark = page.classList.contains("page_theme_dark");
   menu.classList.toggle("header__menu_visible");
-  menuButtonIcon.src =
-    "../images/page-icons/" +
-    (menuIsOpen
-      ? `menu${themeIsDark ? "_light" : "_dark"}.svg`
-      : `close${themeIsDark ? "_light" : "_dark"}.svg`);
+  menuButtonIcon.src = "../images/page-icons/" + (menuIsOpen ? `menu${themeIsDark ? "_light" : "_dark"}.svg` : `close${themeIsDark ? "_light" : "_dark"}.svg`);
 }
 
 // Close menu on link click
