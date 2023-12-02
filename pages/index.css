@@ -53,6 +53,65 @@
   }
 }
 
+/* A utility class that adds a rainbow gradient around a button element */
+.highlight {
+  position: relative;
+  border-radius: 50px;
+  z-index: 2;
+  background-clip: padding-box;
+  border: solid 2px transparent;
+  background-clip: padding-box;
+  /* border: solid 5px transparent; */
+  transition: all 0.1s ease;
+  background-color: inherit;
+}
+
+.highlight_sticky {
+  position: sticky;
+}
+
+.highlight_primary::before {
+  background-color: var(--primary-bg);
+}
+.highlight_secondary::before {
+  background-color: var(--secondary-bg);
+}
+.highlight_tertiary::before {
+  background-color: var(--tertiary-bg);
+}
+
+.highlight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2px;
+  margin: -2px;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  z-index: -2;
+  background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+}
+
+.highlight:hover {
+  transform: scale(1.05);
+}
+
 /* Color variables  */
 
 /* Now that the page theme is set with CSS variables, redesign will be far easier
