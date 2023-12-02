@@ -36,14 +36,14 @@
 /* A utility class that animates in elements when they enter the viewport */
 .fade-in {
   opacity: 0;
-  transform: translateY(10%);
-  filter: blur(8px);
-  transition: all 0.5s ease;
+  transform: scale(0.95);
+  filter: blur(4px);
+  transition: all 1s ease;
 }
 
 .fade-in_visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: scale(1);
   filter: blur(0px);
 }
 
