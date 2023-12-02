@@ -16,6 +16,18 @@ const mediaContainer = document.querySelector(".media__list");
  * @type {MediaItem[]}
  */
 const mediaItems = [
+  // TechStart Podcast
+  {
+    type: "Podcast",
+    date: "2023-11-17",
+    title: "Hiking the Career Trail",
+    description:
+      "I was recently interviewed by TripleTen's TechStart Podcast. We talked about my journey from hiking in the mountains of Appalachian Trail, to working for a Brooklyn based mental health startup.",
+    tags: ["Interview", "Software Engineering", "TechStart"],
+    readLength: "31 minute listen",
+    image: "../images/TechStart.jpeg",
+    link: "https://podcasts.apple.com/us/podcast/hiking-the-career-trail/id1711188418?i=1000635037010&utm_campaign=podcast&utm_source=landing&utm_content=ep5_hikingthecareertrail_apple&_gl=1*1oewwmt*_gcl_au*MTgwMDA1NTYyNC4xNzAxNTAwNjc2*_ga*MTkyMDE4NTUyMy4xNzAxNTAwNjc2*_ga_0S9V7R9M47*MTcwMTUwMDY3NS4xLjAuMTcwMTUwMDY3Ni41OS4wLjA.",
+  },
   // TripleTen
   {
     type: "Video",
