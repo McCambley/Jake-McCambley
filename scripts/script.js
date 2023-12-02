@@ -66,3 +66,28 @@ function isTrue(value) {
 // Event listeners
 toggle.addEventListener("change", toggleTheme);
 menuButton.addEventListener("click", toggleMenu);
+
+// Use intersection observer to fade in elements
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("fade-in_visible");
+        // observer.unobserve(entry.target);
+      } else {
+        entry.target.classList.remove("fade-in_visible");
+      }
+    });
+  },
+  {
+    // root: null,
+    // rootMargin: "0px",
+    // threshold: 0.25,
+  }
+);
+const fadeInElements = document.querySelectorAll(".fade-in");
+// window.addEventListener("DOMContentLoaded", (event) => {
+fadeInElements.forEach((element) => {
+  observer.observe(element);
+});
+// });

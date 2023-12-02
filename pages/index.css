@@ -33,6 +33,26 @@
   font-weight: bold;
 }
 
+/* A utility class that animates in elements when they enter the viewport */
+.fade-in {
+  opacity: 0;
+  transform: translateY(10%);
+  filter: blur(8px);
+  transition: all 0.5s ease;
+}
+
+.fade-in_visible {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+}
+
+@media (prefers-reduced-motion) {
+  .fade-in_visible {
+    transition: none;
+  }
+}
+
 /* Color variables  */
 
 /* Now that the page theme is set with CSS variables, redesign will be far easier
