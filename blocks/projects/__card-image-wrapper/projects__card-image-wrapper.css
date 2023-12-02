@@ -5,8 +5,8 @@
   max-height: 260px;
   overflow: hidden;
   border-radius: 50%;
-  -webkit-filter: drop-shadow(0 0 3px var(--box-shadow));
-  filter: drop-shadow(0 0 3px var(--box-shadow));
+  -webkit-filter: drop-shadow(0 0 2px var(--box-shadow));
+  filter: drop-shadow(0 0 2px var(--box-shadow));
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;

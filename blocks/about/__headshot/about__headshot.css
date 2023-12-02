@@ -9,8 +9,8 @@
   left: 15%; */
   /* filter: drop-shadow(0 0 0.75rem #28262B); */
   opacity: 0.9;
-  -webkit-filter: drop-shadow(0 0 3px var(--box-shadow));
-  filter: drop-shadow(0 0 3px var(--box-shadow));
+  -webkit-filter: drop-shadow(0 0 2px var(--box-shadow));
+  filter: drop-shadow(0 0 2px var(--box-shadow));
 }
 
 @media (max-width: 675px) {
