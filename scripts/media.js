@@ -16,6 +16,18 @@ const mediaContainer = document.querySelector(".media__list");
  * @type {MediaItem[]}
  */
 const mediaItems = [
+  // Snowplow Guide
+  {
+    type: "Article",
+    date: "2024-02-08",
+    title: "Creating and Documenting Snowplow Schemas with ChatGPT",
+    description:
+      "Recently I configured Snowplow analytics on our homepage in order to get a sense for how users utilize our new search features. I leveraged ChatGPT to speed up the process, and thought I'd help others to the same.",
+    tags: ["Data", "Analytics", "AI"],
+    readLength: "4 minute read",
+    image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*xSCvjElDlV9iQi2f",
+    link: "https://jakemccambley.medium.com/creating-and-documenting-snowplow-schemas-with-chatgpt-32dfd978e6d3",
+  },
   // TechStart Podcast
   {
     type: "Podcast",
