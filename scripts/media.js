@@ -16,6 +16,18 @@ const mediaContainer = document.querySelector(".media__list");
  * @type {MediaItem[]}
  */
 const mediaItems = [
+  // SheCanCode Webinar
+  {
+    type: "Webinar",
+    date: "2024-02-21",
+    title: "Unearthing Tech Gems: Discovering Tech Talent Beyond City Limits",
+    description:
+      "I was recently invited to speak at SheCanCode's webinar, where I discussed the emergence of tech in small cities and rural areas. I spoke with a panel of other tech professionals about remote work, quality of life, distributed teams, and the link to increasing diversity of perspectives.",
+    tags: ["Rural Innovation", "Tech Industry", "Remote Work"],
+    readLength: "46 minute watch",
+    image: "/images/gem.jpeg",
+    link: "https://shecancode.io/blog/in-case-you-missed-it-power-up-webinar-unearthing-tech-gems-discovering-tech-talent-beyond-city-limits/",
+  },
   // Snowplow Guide
   {
     type: "Article",
