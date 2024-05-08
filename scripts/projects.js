@@ -5,6 +5,17 @@ const projectTemplate = document.querySelector("#projectcard");
 
 const projects = [
   {
+    name: "Zencare",
+    description:
+      "Zencare is a suite of software tools for therapists and therapy seekers. For over two years I've built full stack features on a multitude of platforms in order to support the company's mission of making mental health care more accessible.",
+    tech: "React | TypeScript | MySQL | Hapi.js | Node.js | AWS | SCSS",
+    imgSrc: "./images/zencare_logo.png",
+    imgAlt: "The Zencare Z",
+    liveLink: "https://zencare.co",
+    repoLink: "",
+    demoLink: "",
+  },
+  {
     name: "NewsExplorer",
     description:
       "This application allows users to login and explore the day's news using the News API. Users can search for, read, and save articles according to their interests. This project is the capstone project of my education at Practicum by Yandex.",
