@@ -38,6 +38,17 @@ const projects = [
     demoLink: "https://youtu.be/z0kQNpBVMcw",
   },
   {
+    name: "Ashley Fife's Portfolio",
+    description:
+      "A portfolio designed to show of the work and unique style of UI/UX designer Ashley Fife. This project was used as a way to explore the styling capabilities of Tailwind when paired with the performance benefits of Next.js. This website was designed by Ashley Fife.",
+    tech: "TypeScript | Next.js | Tailwind | Vercel",
+    imgSrc: "./images/ashley.png",
+    imgAlt: "Ashley Fife ",
+    liveLink: "https://ashleyfife.com",
+    repoLink: "https://github.com/McCambley/ashley-portfolio",
+    demoLink: "",
+  },
+  {
     name: "DotCot",
     description:
       "An app designed to make it easier for investors and startups to connect, DotCot allows investors to easily create custom forms, share forms with founders in their network, and collect sortable descriptive data on new startups.",
