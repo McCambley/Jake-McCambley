@@ -16,6 +16,19 @@ const mediaContainer = document.querySelector(".media__list");
  * @type {MediaItem[]}
  */
 const mediaItems = [
+  // Reflecting on Epic React
+  {
+    type: "Blog",
+    date: "2024-11-26",
+    title: "Reflecting on Epic React",
+    description:
+      "I just wrapped up Kent C. Dodds’ course called Epic React. In an effort to deepen the grooves of my learning, I thought I would revisit each section of the course and share one thing that I learned. Here are my main takeaways from each module.",
+    tags: ["React", "Learning", "Software Engineering"],
+    readLength: "10 minute read",
+    image: "/images/rocketv2.png",
+    link: "https://jakemccambley.medium.com/reflecting-on-epic-react-0e1c9fb6edd0",
+  },
+
   // SheCanCode Webinar
   {
     type: "Webinar",
