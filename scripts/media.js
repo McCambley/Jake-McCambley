@@ -18,6 +18,19 @@ const mediaContainer = document.querySelector(".media__list");
 const mediaItems = [
   // Reflecting on Epic React
   {
+    type: "Video",
+    date: "2025-07-31",
+    title: "Beyond The Code: Alumni Check in with Jake McCambley",
+    description:
+      "Four years after graduating from TripleTen's Software Engineering program, I sat down with them to talk about how my life has changed, from working seasonally, to building software to help people improve their mental health.",
+    tags: ["Interview", "TripleTen", "Software Engineering"],
+    readLength: "5 minute watch",
+    image: "/images/tripleten.png",
+    link: "https://www.youtube.com/watch?v=tYpx7Pk6P9I",
+  },
+
+  // Reflecting on Epic React
+  {
     type: "Blog",
     date: "2024-11-26",
     title: "Reflecting on Epic React",
