@@ -27,6 +27,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   overflow: hidden;
+  display: none;
 }
 
 @media (max-width: 1023px) {
