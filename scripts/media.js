@@ -120,7 +120,7 @@ const mediaItems = [
     date: "June 30, 2021",
     title: "How do you Pair Program?",
     description:
-      "Recently I was asked to answer this question in order to provide feedback on the Pair Programming curriculum at Practicum by Yandex, the school at which I’ve been studying full-stack web development for about five months. Throughout my studies, I’ve been attending weekly webinars intended to teach the practice and methodology of Pair Programming.",
+      "Recently I was asked to answer this question in order to provide feedback on the Pair Programming curriculum at TripleTen, the school at which I’ve been studying full-stack web development for about five months. Throughout my studies, I’ve been attending weekly webinars intended to teach the practice and methodology of Pair Programming.",
     tags: ["Pair Programming", "Soft Skills", "Leadership"],
     readLength: "11 minute read",
     image: "https://miro.medium.com/v2/resize:fit:1400/0*uc2qreXMn9C9rQ8m",
